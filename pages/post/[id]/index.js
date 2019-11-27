@@ -4,6 +4,8 @@ import Header from '../../../components/header'
 
 const Post = () => {
   const router = useRouter()
+  console.log(router);
+  
   const { id } = router.query
 
   return (

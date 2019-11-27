@@ -14,6 +14,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="/tutors">
+          <a>Tutors</a>
+        </Link>
+      </li>
+      <li>
         <Link href="/post/[id]" as="/post/first">
           <a>First Post</a>
         </Link>
