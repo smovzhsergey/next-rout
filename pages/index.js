@@ -1,10 +1,9 @@
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 const Home = () => (
-  <>
-    <Header />
-    <h1>Hello World!</h1>
-  </>
+  <Layout>
+    <h1>Main page</h1>
+  </Layout>
 )
 
 export default Home

@@ -1,0 +1,49 @@
+[
+  {
+    "id":"1",
+    "subjects":[
+      {
+        "name":"english",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"math",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"italian",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"biology",
+        "level":["low", "medium", "high", "superStar"]
+      }
+    ],
+    "name":"Paul George",
+    "city":"Kyiv"
+  },
+  {
+    "id":"2",
+    "subjects":[
+      {
+        "name":"english",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"math",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"italian",
+        "level":["low", "medium", "high", "superStar"]
+      },
+      {
+        "name":"biology",
+        "level":["low", "medium", "high", "superStar"]
+      }
+    ],
+    "name":"Lebron James",
+    "city":"Odessa"
+  }
+  
+]

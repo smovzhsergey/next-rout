@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 const Header = () => (
   <header>
+    
     <ul>
       <li>
         <Link href="/">
@@ -16,16 +17,6 @@ const Header = () => (
       <li>
         <Link href="/tutors">
           <a>Tutors</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/post/[id]" as="/post/first">
-          <a>First Post</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/post/[id]" as="/post/second">
-          <a>Second Post</a>
         </Link>
       </li>
     </ul>
