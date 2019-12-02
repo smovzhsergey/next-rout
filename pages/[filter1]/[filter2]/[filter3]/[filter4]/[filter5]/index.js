@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Layout from '../../../components/layout'
-import TutorsBoard from '../../../components/tutorsBoard'
+import Layout from '../../../../../../components/layout'
+import TutorsBoard from '../../../../../../components/tutorsBoard'
 
-const Filter2 = () => {
+const Filter4 = () => {
 
   const router = useRouter()
   
@@ -15,4 +15,4 @@ const Filter2 = () => {
   )
 }
 
-export default Filter2;
+export default Filter4;

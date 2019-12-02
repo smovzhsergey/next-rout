@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+console.log('re-rerender Header!!!!!!!!!!!!!!!!!!!!')
+
 const Header = () => (
   <header>
     
