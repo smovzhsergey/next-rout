@@ -5,40 +5,53 @@ import Link from 'next/link'
 import FilterPanel from './filterPanel';
 import TutorsList from './tutorsList';
 
-import {getFilters, getSelected, isSelected, createLinkPlaceholder, createLinkTemplate} from '../helper'
+// import {getFilters, getSelected, isSelected, createLinkPlaceholder, createLinkTemplate} from '../helper'
 
 const TutorsBoard = () => {
   const router = useRouter();
 
-  const initFilters = getFilters();
-  const initSelectedFilter = getSelected();
-  const initIsNewFilter = isSelected();
+  // const initFilters = getFilters();
+  // const initSelectedFilter = getSelected();
+  // const initIsNewFilter = isSelected();
   
-  const [filters, setFilter] = useState(initFilters)
-  const [selectedFilter, setSelectedFilter] = useState(initSelectedFilter)
-  const [isNewFilter, setIsNewFilter] = useState(initIsNewFilter)
+  // const [filters, setFilter] = useState(initFilters)
+  // const [selectedFilter, setSelectedFilter] = useState(initSelectedFilter)
+  // const [isNewFilter, setIsNewFilter] = useState(initIsNewFilter)
 
-  useEffect(() => {
-    localStorage.setItem('filters', JSON.stringify(filters))
-    localStorage.setItem('selectedFilter', selectedFilter)
-    localStorage.setItem('isNewFilter', isNewFilter)
-  }, [filters]);
+  // useEffect(() => {
+  //   localStorage.setItem('filters', JSON.stringify(filters))
+  //   localStorage.setItem('selectedFilter', selectedFilter)
+  //   localStorage.setItem('isNewFilter', isNewFilter)
+  // }, [filters]);
   
-  const setNewFilter = (name, value) => {
+  // const setNewFilter = (name, value) => {
     
-    if(filters[name]) {
-      setIsNewFilter(false);
-    } else {
-      setIsNewFilter(true);
-    }
+  //   if(filters[name]) {
+  //     setIsNewFilter(false);
+  //   } else {
+  //     setIsNewFilter(true);
+  //   }
 
-    setSelectedFilter(name)
-    setFilter({ ...filters, ...{ [name]: value } });
+  //   setSelectedFilter(name)
+  //   setFilter({ ...filters, ...{ [name]: value } });
+  // }
+
+  // const nextlink = createLinkTemplate(router, filters, isNewFilter);
+
+  const createLinkTemplate = (router) => {
+    const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
+    const link =  router.pathname === '/tutors'
+    ? `[filter1]/[filter2]`
+    : `${router.pathname}/[filter${routeIndex+1}]`;
+    return link;
   }
 
-  const nextlink = createLinkTemplate(router, filters, isNewFilter);
+  const setNewFilter = (name, value) => { console.log(name, value)}
+    
 
-  createLinkPlaceholder(router, filters, selectedFilter)
+  const nextlink = createLinkTemplate(router);
+
+  // createLinkPlaceholder(router, filters, selectedFilter)
   
 
   const fields = {
@@ -48,7 +61,8 @@ const TutorsBoard = () => {
     levels: ['level', ['low', 'medium', 'high', 'superStar']],
   }
 
-  const isSaving = filters ? true : false
+  // const isSaving = filters ? true : false
+  const isSaving = true
   
   return (
     <section>

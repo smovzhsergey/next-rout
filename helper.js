@@ -1,84 +1,85 @@
-const  getFilters = () => {
+// const  getFilters = () => {
   
-  const data = localStorage.getItem('filters');
+//   const data = localStorage.getItem('filters');
   
-  return data
-          ? JSON.parse(data)
-          : {
-            subject: null,
-            city: null,
-            district: null,
-            level: null,
-          };
-};
+//   return data
+//           ? JSON.parse(data)
+//           : {
+//             subject: null,
+//             city: null,
+//             district: null,
+//             level: null,
+//           };
+// };
 
-const  getSelected = () => {
-  const data = localStorage.getItem('selectedFilter');  
-  return (data ? data : null)
-};
+// const  getSelected = () => {
+//   const data = localStorage.getItem('selectedFilter');  
+//   return (data ? data : null)
+// };
 
-const  isSelected = () => {
-  const data = localStorage.getItem('isNewFilter');
+// const  isSelected = () => {
+//   const data = localStorage.getItem('isNewFilter');
   
-  return (data === null ? true : data)
-};
+//   return (data === null ? true : data)
+// };
 
-const createLinkTemplate = (router, isNewFilter) => {
-  let link;
+// const createLinkTemplate = (router, isNewFilter) => {
+//   let link;
   
-  if (!isNewFilter) {
-    console.log(router.pathname);
+//   if (!isNewFilter) {
+//     console.log(router.pathname);
     
-    link = router.pathname;
-  } else {
-    const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
-    link =  router.pathname === '/tutors'
-    ? `[filter1]/[filter2]`
-    : `${router.pathname}/[filter${routeIndex+1}]`;
-  }
+//     link = router.pathname;
+//   } else {
+//     const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
+//     link =  router.pathname === '/tutors'
+//     ? `[filter1]/[filter2]`
+//     : `${router.pathname}/[filter${routeIndex+1}]`;
+//   }
   
-  return link;
-}
+//   return link;
+// }
 
-const createLinkPlaceholder = (router, filters, selectedFilter) => {
+// const createLinkPlaceholder = (router, filters, selectedFilter) => {
 
-  console.log(filters)
-  let oldValue = filters[selectedFilter];
-}
+//   console.log(filters)
+//   let oldValue = filters[selectedFilter];
+// }
 
-const createLink = ( name, path, router, currentFilter = {city: 'Lviv'} ) => {
+// const createLink = ( name, path, router, currentFilter = {city: 'Lviv'} ) => {
 
-  // data from filter:
-    // name => filter type:'subject', 'location', 'level' ....
-    // path => filter value: 'math', 'italian', 'english' ....
+//   // data from filter:
+//     // name => filter type:'subject', 'location', 'level' ....
+//     // path => filter value: 'math', 'italian', 'english' ....
 
-  // path before filter selecting 
-  let oldValue = localStorage.getItem(name);
+//   // path before filter selecting 
+//   let oldValue = localStorage.getItem(name);
   
-  // set new path
-  localStorage.setItem(`${name}`, path);
+//   // set new path
+//   localStorage.setItem(`${name}`, path);
 
-  // if filter existing
-  if (oldValue) {
-    let url;
-    // if value from select = '' or undefined
-    if (path === "") {
-      localStorage.removeItem(name);
-      oldValue =  '/'+oldValue;
-      url = router.asPath.replace(oldValue, '');
-    } else {
-      url = router.asPath.replace(oldValue, path);
-    }
+//   // if filter existing
+//   if (oldValue) {
+//     let url;
+//     // if value from select = '' or undefined
+//     if (path === "") {
+//       localStorage.removeItem(name);
+//       oldValue =  '/'+oldValue;
+//       url = router.asPath.replace(oldValue, '');
+//     } else {
+//       url = router.asPath.replace(oldValue, path);
+//     }
 
-    return url;
+//     return url;
 
-  } else {
-    // if filter isn't existing
-    return `${router.asPath}/${path}`
-  }
-}
-
-
+//   } else {
+//     // if filter isn't existing
+//     return `${router.asPath}/${path}`
+//   }
+// }
 
 
-export { getFilters, getSelected, isSelected, createLink, createLinkTemplate, createLinkPlaceholder}
+
+
+// export { getFilters, getSelected, isSelected, createLink, createLinkTemplate, createLinkPlaceholder}
+
