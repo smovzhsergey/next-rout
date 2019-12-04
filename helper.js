@@ -13,8 +13,7 @@ const  getFilters = () => {
 };
 
 const  getSelected = () => {
-  const data = localStorage.getItem('selectedFilter');
-  
+  const data = localStorage.getItem('selectedFilter');  
   return (data ? data : null)
 };
 
