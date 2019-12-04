@@ -1,33 +1,28 @@
-import React, { useState, useEffect } from 'react'
 import {useRouter} from 'next/router'
 import Link from 'next/link';
 
-import {getVal} from '../helper'
+export const Filters = ({ cb, selectData:[name, options], nextlink }) => {
 
-export const Filters = ({ cb, selectData:[name, options] }) => {
-
-  const [selectedItem, setSelectedItem] = useState()
-
-  useEffect(() => {
-    setSelectedItem(getVal(name)); 
-  }, [selectedItem]);
+  const router = useRouter();
   
   return (
-    <div>
-      <select
-        name = { name }
-        style = {{margin: '20px', borderBottom: '2px solid gray'}}
-        onChange = { (e) => cb(e.target.name, e.target.value) } // filter name and filter value
-      >
-        <option value = "" selected = { !selectedItem }> -- select an { name } -- </option>
-        {  
-          options.map( (option, index) => (
-            <option key = { index } value = { option } selected = { option === selectedItem }>
-                {option}
-            </option>)
-          )
-        }
-      </select>
+    <div style = {{ padding: '20px' }}>
+
+      <h3>Filter { name }</h3>
+      <p>
+        <Link href={nextlink} as={`${router.asPath}`}>
+          <a  onClick = { () => cb({ [name]:null }) }>*** CLEAR ***</a>
+        </Link>
+      </p>
+      {
+        options.map( (option, index) => (
+          <p key = {index}>
+            <Link href = { nextlink } as = {`${ router.asPath }/${ option }`}>
+              <a onClick = { () => cb(name, option) }>{ option }</a>
+            </Link>
+          </p>
+        ))
+      }
     </div>
   )
 }

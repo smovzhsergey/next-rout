@@ -1,13 +1,13 @@
 import Filter from './filters';
 
-const filterPanel = ({cb, fields: {cities, districts, levels, subjects}}) => {
+const filterPanel = ({cb, nextlink, fields: {cities, districts, levels, subjects}}) => {
   
   return (
     <div style ={{display: 'flex'}}>
-      <Filter selectData = { subjects } cb = { cb } />
-      <Filter selectData = { levels } cb = { cb } />
-      <Filter selectData = { cities } cb = { cb } />
-      <Filter selectData = { districts } cb = { cb } />
+      <Filter nextlink = {nextlink } selectData = { subjects } cb = { cb } />
+      <Filter nextlink = {nextlink } selectData = { levels } cb = { cb } />
+      <Filter nextlink = {nextlink } selectData = { cities } cb = { cb } />
+      <Filter nextlink = {nextlink } selectData = { districts } cb = { cb } />
     </div>
   )
 }

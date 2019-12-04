@@ -1,4 +1,53 @@
-export const createLink = ( name, path, router, currentFilter = {city: 'Lviv'} ) => {
+const  getFilters = () => {
+  
+  const data = localStorage.getItem('filters');
+  
+  return data
+          ? JSON.parse(data)
+          : {
+            subject: null,
+            city: null,
+            district: null,
+            level: null,
+          };
+};
+
+const  getSelected = () => {
+  const data = localStorage.getItem('selectedFilter');
+  
+  return (data ? data : null)
+};
+
+const  isSelected = () => {
+  const data = localStorage.getItem('isNewFilter');
+  
+  return (data === null ? true : data)
+};
+
+const createLinkTemplate = (router, isNewFilter) => {
+  let link;
+  
+  if (!isNewFilter) {
+    console.log(router.pathname);
+    
+    link = router.pathname;
+  } else {
+    const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
+    link =  router.pathname === '/tutors'
+    ? `[filter1]/[filter2]`
+    : `${router.pathname}/[filter${routeIndex+1}]`;
+  }
+  
+  return link;
+}
+
+const createLinkPlaceholder = (router, filters, selectedFilter) => {
+
+  console.log(filters)
+  let oldValue = filters[selectedFilter];
+}
+
+const createLink = ( name, path, router, currentFilter = {city: 'Lviv'} ) => {
 
   // data from filter:
     // name => filter type:'subject', 'location', 'level' ....
@@ -31,6 +80,6 @@ export const createLink = ( name, path, router, currentFilter = {city: 'Lviv'} )
 }
 
 
-const  getVal = (name) => localStorage.getItem(name);
 
-export { getVal }
+
+export { getFilters, getSelected, isSelected, createLink, createLinkTemplate, createLinkPlaceholder}

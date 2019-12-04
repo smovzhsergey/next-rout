@@ -1,12 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react'
 import {useRouter} from 'next/router';
+import Link from 'next/link'
 
 import FilterPanel from './filterPanel';
 import TutorsList from './tutorsList';
 
-import {createLink} from '../helper'
+import {getFilters, getSelected, isSelected, createLinkPlaceholder, createLinkTemplate} from '../helper'
 
 const TutorsBoard = () => {
+  const router = useRouter();
+
+  const initFilters = getFilters();
+  const initSelectedFilter = getSelected();
+  const initIsNewFilter = isSelected();
+  
+  const [filters, setFilter] = useState(initFilters)
+  const [selectedFilter, setSelectedFilter] = useState(initSelectedFilter)
+  const [isNewFilter, setIsNewFilter] = useState(initIsNewFilter)
+
+  useEffect(() => {
+    localStorage.setItem('filters', JSON.stringify(filters))
+    localStorage.setItem('selectedFilter', selectedFilter)
+    localStorage.setItem('isNewFilter', isNewFilter)
+  }, [filters]);
+  
+  const setNewFilter = (name, value) => {
+    
+    if(filters[name]) {
+      setIsNewFilter(false);
+    } else {
+      setIsNewFilter(true);
+    }
+
+    setSelectedFilter(name)
+    setFilter({ ...filters, ...{ [name]: value } });
+  }
+
+  const nextlink = createLinkTemplate(router, filters, isNewFilter);
+
+  createLinkPlaceholder(router, filters, selectedFilter)
+  
 
   const fields = {
     subjects: ['subject', ['english', 'math', 'italian', 'biology']],
@@ -15,22 +48,21 @@ const TutorsBoard = () => {
     levels: ['level', ['low', 'medium', 'high', 'superStar']],
   }
 
-  const router = useRouter();
-
-  const changeRoute = (name, path) => { 
-    const newRoute = createLink(name, path, router)
-    
-    router.push(newRoute)
-  }
-
+  const isSaving = filters ? true : false
+  
   return (
     <section>
-      <h1>Bread Crumbs</h1>
       <div>
-        <FilterPanel
+        <Link href="/[filter1]/[filter2]" as={`/tutors/math`}>
+          <a>Bread Crumbs</a>
+        </Link>        
+      </div>
+      <div>
+        {isSaving && <FilterPanel
           fields = { fields }
-          cb = { changeRoute }
-        />
+          cb = { setNewFilter }
+          nextlink = { nextlink }
+        />}
         <TutorsList />
       </div>
       
