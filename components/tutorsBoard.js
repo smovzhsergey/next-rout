@@ -40,6 +40,7 @@ const TutorsBoard = () => {
 
   const createLinkTemplate = (router) => {
     const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
+    const { filter1, filter2, filter3, filter4, filter5, filter6 } = router.query;
     const link =  router.pathname === '/tutors'
     ? `[filter1]/[filter2]`
     : `${router.pathname}/[filter${routeIndex+1}]`;
