@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const Filters = ({ cb, selectData:[name, options], nextlink }) => {
 
   const router = useRouter();
+  const { filter1, filter2, filter3, filter4, filter5, filter6 } = router.query;
   
   return (
     <div style = {{ padding: '20px' }}>
