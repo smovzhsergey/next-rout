@@ -15,5 +15,7 @@ const Filter2 = () => {
     </Layout>
   )
 }
-
+Filter2.getInitialProps = () => {
+  
+}
 export default Filter2;

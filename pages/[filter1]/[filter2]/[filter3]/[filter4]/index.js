@@ -14,5 +14,7 @@ const Filter4 = () => {
     </Layout>
   )
 }
-
+Filter4.getInitialProps = () => {
+  
+}
 export default Filter4;

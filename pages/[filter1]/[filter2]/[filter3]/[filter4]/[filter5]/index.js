@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../../../../../../components/layout'
 import TutorsBoard from '../../../../../../components/tutorsBoard'
 
-const Filter4 = () => {
+const Filter5 = () => {
 
   const router = useRouter()
   
@@ -14,5 +14,7 @@ const Filter4 = () => {
     </Layout>
   )
 }
-
-export default Filter4;
+Filter5.getInitialProps = () => {
+  
+}
+export default Filter5;

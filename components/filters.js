@@ -8,8 +8,9 @@ export const Filters = ({ cb, selectData:[name, options], nextlink }) => {
   const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
     const { filter1, filter2, filter3, filter4, filter5, filter6 } = router.query;
     const link =  router.pathname === '/tutors'
-    ? `[filter]/[filter2]`
+    ? `[filter1]/[filter2]`
     : `${router.pathname}/[filter${routeIndex+1}]`;
+    console.log(link)
   
   return (
     <div style = {{ padding: '20px' }}>
