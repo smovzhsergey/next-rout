@@ -38,13 +38,27 @@ const TutorsBoard = () => {
 
   // const nextlink = createLinkTemplate(router, filters, isNewFilter);
 
+  // const createLinkTemplate = (router) => {
+  //   const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
+  //   const link =  router.pathname === '/tutors'
+  //   ? `[filter1]/[filter2]`
+  //   : `${router.pathname}/[filter${routeIndex+1}]`;
+  //   return link;
+  // }
   const createLinkTemplate = (router) => {
+    console.log(router.pathname);
+    
     const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
     const link =  router.pathname === '/tutors'
-    ? `[filter1]/[filter2]`
+    ? `wtf/someRoutName`
     : `${router.pathname}/[filter${routeIndex+1}]`;
+    console.log(link);
+    
     return link;
   }
+
+  console.log(router);
+  
 
   const setNewFilter = (name, value) => { console.log(name, value)}
     
