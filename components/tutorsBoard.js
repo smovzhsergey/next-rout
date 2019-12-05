@@ -54,7 +54,6 @@ const TutorsBoard = () => {
     : `${router.pathname}/[filter${routeIndex+1}]`;
     console.log(link);
     
-    
     return link;
   }
 
