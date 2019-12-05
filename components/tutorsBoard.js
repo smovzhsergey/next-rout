@@ -42,15 +42,13 @@ const TutorsBoard = () => {
     const routeIndex = Number(router.pathname.slice(-2, -1));  // (:|)
     const { filter1, filter2, filter3, filter4, filter5, filter6 } = router.query;
     const link =  router.pathname === '/tutors'
-    ? `[filter1]/[filter2]`
+    ? `[filter]/[filter2]`
     : `${router.pathname}/[filter${routeIndex+1}]`;
     return link;
   }
-  
 
   const setNewFilter = (name, value) => { console.log(name, value)}
-    
-
+  
   const nextlink = createLinkTemplate(router);
 
   // createLinkPlaceholder(router, filters, selectedFilter)

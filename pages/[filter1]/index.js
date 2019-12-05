@@ -7,8 +7,6 @@ const Filter1 = () => {
 
   const router = useRouter()
   const { filter1, filter2 } = router.query;
-  console.log(filter1);
-  console.log(filter2);
   
   return (
     <Layout>
