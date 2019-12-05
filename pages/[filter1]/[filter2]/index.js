@@ -6,6 +6,13 @@ import TutorsBoard from '../../../components/tutorsBoard'
 const Filter2 = () => {
 
   const router = useRouter()
+  const { filter1, filter2, filter3, filter4, filter5, filter6 } = router.query;
+  console.log(filter1);
+  console.log(filter2);
+  console.log(filter3);
+  console.log(filter4);
+  console.log(filter5);
+  console.log(filter6);
   
   return (
     <Layout>
