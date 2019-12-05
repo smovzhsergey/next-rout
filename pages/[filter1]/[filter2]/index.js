@@ -16,6 +16,6 @@ const Filter2 = () => {
   )
 }
 Filter2.getInitialProps = () => {
-  
+  return {}
 }
 export default Filter2;

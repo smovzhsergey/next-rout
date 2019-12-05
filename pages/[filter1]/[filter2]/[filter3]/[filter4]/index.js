@@ -15,6 +15,6 @@ const Filter4 = () => {
   )
 }
 Filter4.getInitialProps = () => {
-  
+  return {}
 }
 export default Filter4;
