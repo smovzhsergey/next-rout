@@ -10,7 +10,7 @@ export const Filters = ({ cb, selectData:[name, options], nextlink }) => {
     const link =  router.pathname === '/tutors'
     ? `[filter1]/[filter2]`
     : `${router.pathname}/[filter${routeIndex+1}]`;
-    console.log(link)
+    // console.log(link)
   
   return (
     <div style = {{ padding: '20px' }}>
@@ -24,9 +24,7 @@ export const Filters = ({ cb, selectData:[name, options], nextlink }) => {
       {
         options.map( (option, index) => (
           <p key = {index}>
-            <Link href = { link } as = {`${ router.asPath }/${ option }`}>
-              <a onClick = { () => cb(name, option) }>{ option }</a>
-            </Link>
+            <Link href = { link } as = {`${ router.asPath }/${ option }`}><span>{ option }</span></Link>
           </p>
         ))
       }

@@ -23,3 +23,43 @@ no# See https://help.github.com/articles/ignoring-files/ for more about ignoring
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+.idea
+
+# dependencies
+client/node_modules
+client/.pnp
+.pnp.js
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+client/components/**/*_tmp*.js
+client/pages/*_tmp*.js
+client/init/**/*_tmp*.js
+client/sagas/*_tmp*.js
+client/sagas/*/*_tmp*.js
+client/sagas/**/*_tmp*.js
+
+# production
+client/build
+
+# misc
+.DS_Store
+

@@ -4,12 +4,18 @@ import Link from 'next/link'
 
 import FilterPanel from './filterPanel';
 import TutorsList from './tutorsList';
+import LinkContainer from './LinkContainer';
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { types as catalog} from '../sagas/catalog/types';
+import { catalogActions} from '../sagas/catalog/actions';
 
 // import {getFilters, getSelected, isSelected, createLinkPlaceholder, createLinkTemplate} from '../helper'
 
-const TutorsBoard = () => {
+const TutorsBoard = (props) => {
   const router = useRouter();
-
+  console.log(props)
   // const initFilters = getFilters();
   // const initSelectedFilter = getSelected();
   // const initIsNewFilter = isSelected();
@@ -63,6 +69,13 @@ const TutorsBoard = () => {
 
   // const isSaving = filters ? true : false
   const isSaving = true
+
+  const currentLink = {
+    subject: 'math',
+    city: 'Kyiv',
+    level: 'high',
+    district: null
+  }
   
   return (
     <section>
@@ -78,10 +91,21 @@ const TutorsBoard = () => {
           nextlink = { nextlink }
         />}
         <TutorsList />
+        <LinkContainer currentLink = { currentLink }/>
       </div>
       
     </section>
   )
 }
 
-export default TutorsBoard;
+// export default TutorsBoard;
+
+const mstp = ({catalog}) => ({
+  query: catalog.currentRoute
+});
+
+const mdtp = (dispatch) => ({
+  actions: bindActionCreators(catalogActions, dispatch) 
+})
+
+export default connect(mstp, mdtp)(TutorsBoard)

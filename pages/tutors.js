@@ -2,8 +2,8 @@ import { useRouter } from 'next/router'
 import Layout from '../components/layout'
 import TutorsBoard from '../components/tutorsBoard'
 
-const Tutors = () => {
 
+const Tutors = (props) => {
   return(
 
     <Layout>
@@ -15,4 +15,4 @@ const Tutors = () => {
 
   )
 }
-export default Tutors
+export default Tutors;
