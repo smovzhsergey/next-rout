@@ -18,7 +18,6 @@ return(
       <meta name="description" content={"Some description about current page"} />
     </Head>
     <Header />
-    <h1>commons.c877f484ef16172d88b9.js</h1>
     {props.children}
   </div>
 )}
