@@ -1,13 +1,13 @@
 import Filter from './filters';
 
-const filterPanel = ({cb, nextlink, fields: {cities, districts, levels, subjects}}) => {
+const filterPanel = ({cb, fields: {cities, districts, levels, subjects}, currentRoute}) => {
   
   return (
     <div style ={{display: 'flex'}}>
-      <Filter nextlink = {nextlink } selectData = { subjects } cb = { cb } />
-      <Filter nextlink = {nextlink } selectData = { levels } cb = { cb } />
-      <Filter nextlink = {nextlink } selectData = { cities } cb = { cb } />
-      <Filter nextlink = {nextlink } selectData = { districts } cb = { cb } />
+      <Filter selectData = { subjects } cb = { cb } currentRoute = {currentRoute}/>
+      <Filter selectData = { levels } cb = { cb } currentRoute = {currentRoute}/>
+      <Filter selectData = { cities } cb = { cb } currentRoute = {currentRoute}/>
+      <Filter selectData = { districts } cb = { cb } currentRoute = {currentRoute}/>
     </div>
   )
 }
