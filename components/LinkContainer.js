@@ -26,7 +26,7 @@ const LinkContainer = ({currentLink}) => {
     
     // return selected;
 
-    return Object.entries(obj).reduce( (acc, item) => acc + ( item[1] ? `/${item[0]}` : '' ), '' );
+    // return Object.entries(obj).reduce( (acc, item) => acc + ( item[1] ? `/${item[0]}` : '' ), '' );
 
   }
 

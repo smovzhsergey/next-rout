@@ -1,0 +1,4430 @@
+{
+  "2015": {
+      "id": 2015,
+      "name": "Бар",
+      "alias": "Bar",
+      "region_id": 701
+  },
+  "2016": {
+      "id": 2016,
+      "name": "Бершадь",
+      "alias": "bershad",
+      "region_id": 701
+  },
+  "2017": {
+      "id": 2017,
+      "name": "Браїлів",
+      "alias": "brailov",
+      "region_id": 701
+  },
+  "2018": {
+      "id": 2018,
+      "name": "Брацлав",
+      "alias": "Bratslav",
+      "region_id": 701
+  },
+  "2019": {
+      "id": 2019,
+      "name": "Вапнярка",
+      "alias": "Vapnyarka",
+      "region_id": 701
+  },
+  "2020": {
+      "id": 2020,
+      "name": "Вендичани",
+      "alias": "Vendichany",
+      "region_id": 701
+  },
+  "2021": {
+      "id": 2021,
+      "name": "Вінниця",
+      "alias": "Vinnytsya",
+      "region_id": 701
+  },
+  "2022": {
+      "id": 2022,
+      "name": "Вороновиця",
+      "alias": "Voronovitsa",
+      "region_id": 701
+  },
+  "2023": {
+      "id": 2023,
+      "name": "Гайсин",
+      "alias": "Haysin",
+      "region_id": 701
+  },
+  "2024": {
+      "id": 2024,
+      "name": "Гнівань",
+      "alias": "Hnivan",
+      "region_id": 701
+  },
+  "2025": {
+      "id": 2025,
+      "name": "Дашів",
+      "alias": "Dashev",
+      "region_id": 701
+  },
+  "2026": {
+      "id": 2026,
+      "name": "Жмеринка",
+      "alias": "Zhmerinka",
+      "region_id": 701
+  },
+  "2027": {
+      "id": 2027,
+      "name": "Іллінці",
+      "alias": "Ilintsy",
+      "region_id": 701
+  },
+  "2028": {
+      "id": 2028,
+      "name": "Козятин",
+      "alias": "Kazatin",
+      "region_id": 701
+  },
+  "2029": {
+      "id": 2029,
+      "name": "Калинівка",
+      "alias": "Kalinovka",
+      "region_id": 701
+  },
+  "2030": {
+      "id": 2030,
+      "name": "Крижопіль",
+      "alias": "Kryzhopol",
+      "region_id": 701
+  },
+  "2031": {
+      "id": 2031,
+      "name": "Липовець",
+      "alias": "Lipovets",
+      "region_id": 701
+  },
+  "2032": {
+      "id": 2032,
+      "name": "Літин",
+      "alias": "Litin",
+      "region_id": 701
+  },
+  "2033": {
+      "id": 2033,
+      "name": "Могилів-Подільський",
+      "alias": "Mohilev-Podolskiy",
+      "region_id": 701
+  },
+  "2034": {
+      "id": 2034,
+      "name": "Муровані Курилівці",
+      "alias": "murovannye-kurilovtsy",
+      "region_id": 701
+  },
+  "2035": {
+      "id": 2035,
+      "name": "Немирів",
+      "alias": "Nemirov",
+      "region_id": 701
+  },
+  "2036": {
+      "id": 2036,
+      "name": "Оратів",
+      "alias": "Oratov",
+      "region_id": 701
+  },
+  "2037": {
+      "id": 2037,
+      "name": "Піщанка",
+      "alias": "Peschanka",
+      "region_id": 701
+  },
+  "2038": {
+      "id": 2038,
+      "name": "Погребище",
+      "alias": "Pohrebishche",
+      "region_id": 701
+  },
+  "2039": {
+      "id": 2039,
+      "name": "Теплик",
+      "alias": "Teplik-1",
+      "region_id": 701
+  },
+  "2040": {
+      "id": 2040,
+      "name": "Томашпіль",
+      "alias": "Tomashpol",
+      "region_id": 701
+  },
+  "2041": {
+      "id": 2041,
+      "name": "Тростянець",
+      "alias": "Trostyanets",
+      "region_id": 701
+  },
+  "2042": {
+      "id": 2042,
+      "name": "Тульчин",
+      "alias": "Tulchin",
+      "region_id": 701
+  },
+  "2043": {
+      "id": 2043,
+      "name": "Тиврів",
+      "alias": "Tyvrov",
+      "region_id": 701
+  },
+  "2044": {
+      "id": 2044,
+      "name": "Хмільник",
+      "alias": "Khmelnik",
+      "region_id": 701
+  },
+  "2045": {
+      "id": 2045,
+      "name": "Чечельник",
+      "alias": "Chechelnik",
+      "region_id": 701
+  },
+  "2046": {
+      "id": 2046,
+      "name": "Шаргород",
+      "alias": "Sharhorod",
+      "region_id": 701
+  },
+  "2047": {
+      "id": 2047,
+      "name": "Ямпіль",
+      "alias": "Yampol",
+      "region_id": 701
+  },
+  "2267": {
+      "id": 2267,
+      "name": "Берестечко",
+      "alias": "Berestechko",
+      "region_id": 702
+  },
+  "2268": {
+      "id": 2268,
+      "name": "Володимир-Волинський",
+      "alias": "Vladimir-Volynskiy",
+      "region_id": 702
+  },
+  "2269": {
+      "id": 2269,
+      "name": "Голоби",
+      "alias": "Holoby",
+      "region_id": 702
+  },
+  "2270": {
+      "id": 2270,
+      "name": "Головно",
+      "alias": "Holovno",
+      "region_id": 702
+  },
+  "2271": {
+      "id": 2271,
+      "name": "Горохів",
+      "alias": "Horokhov",
+      "region_id": 702
+  },
+  "2272": {
+      "id": 2272,
+      "name": "Заболоття",
+      "alias": "Zabolote",
+      "region_id": 702
+  },
+  "2273": {
+      "id": 2273,
+      "name": "Іваничі",
+      "alias": "Ivanichi",
+      "region_id": 702
+  },
+  "2274": {
+      "id": 2274,
+      "name": "Камінь-Каширський",
+      "alias": "Kamen-Kashirskiy",
+      "region_id": 702
+  },
+  "2275": {
+      "id": 2275,
+      "name": "Ківерці",
+      "alias": "Kivertsy",
+      "region_id": 702
+  },
+  "2276": {
+      "id": 2276,
+      "name": "Ковель",
+      "alias": "Kovel",
+      "region_id": 702
+  },
+  "2277": {
+      "id": 2277,
+      "name": "Локачі",
+      "alias": "Lokachi",
+      "region_id": 702
+  },
+  "2278": {
+      "id": 2278,
+      "name": "Луцьк",
+      "alias": "Lutsk",
+      "region_id": 702
+  },
+  "2279": {
+      "id": 2279,
+      "name": "Любешів",
+      "alias": "Lyubeshov",
+      "region_id": 702
+  },
+  "2280": {
+      "id": 2280,
+      "name": "Любомль",
+      "alias": "lyuboml",
+      "region_id": 702
+  },
+  "2281": {
+      "id": 2281,
+      "name": "Маневичі",
+      "alias": "Manevichi",
+      "region_id": 702
+  },
+  "2282": {
+      "id": 2282,
+      "name": "Нововолинськ",
+      "alias": "Novovolynsk",
+      "region_id": 702
+  },
+  "2283": {
+      "id": 2283,
+      "name": "Ратно",
+      "alias": "Ratno",
+      "region_id": 702
+  },
+  "2284": {
+      "id": 2284,
+      "name": "Рожище",
+      "alias": "Rozhishche",
+      "region_id": 702
+  },
+  "2285": {
+      "id": 2285,
+      "name": "стара Вижівка",
+      "alias": "Staraya-Vyzhevka",
+      "region_id": 702
+  },
+  "2286": {
+      "id": 2286,
+      "name": "Турійськ",
+      "alias": "Turiysk",
+      "region_id": 702
+  },
+  "2747": {
+      "id": 2747,
+      "name": "Апостолове",
+      "alias": "Apostolovo",
+      "region_id": 703
+  },
+  "2748": {
+      "id": 2748,
+      "name": "Аули",
+      "alias": "Auly",
+      "region_id": 703
+  },
+  "2749": {
+      "id": 2749,
+      "name": "Брагинівка",
+      "alias": "Brahinovka",
+      "region_id": 703
+  },
+  "2750": {
+      "id": 2750,
+      "name": "Васильківка",
+      "alias": "Vasilkovka",
+      "region_id": 703
+  },
+  "2751": {
+      "id": 2751,
+      "name": "Верхньодніпровськ",
+      "alias": "Verkhnedneprovsk",
+      "region_id": 703
+  },
+  "2752": {
+      "id": 2752,
+      "name": "Верхівцеве",
+      "alias": "Verkhovtsevo",
+      "region_id": 703
+  },
+  "2753": {
+      "id": 2753,
+      "name": "Вільногірськ",
+      "alias": "Volnohorsk",
+      "region_id": 703
+  },
+  "2754": {
+      "id": 2754,
+      "name": "Гвардійське",
+      "alias": "Hvardeyskoe",
+      "region_id": 703
+  },
+  "2755": {
+      "id": 2755,
+      "name": "Гірницьке",
+      "alias": "Hornyatskoe",
+      "region_id": 703
+  },
+  "2756": {
+      "id": 2756,
+      "name": "Губиниха",
+      "alias": "Hubinikha",
+      "region_id": 703
+  },
+  "2757": {
+      "id": 2757,
+      "name": "Демурине",
+      "alias": "Demurino",
+      "region_id": 703
+  },
+  "2758": {
+      "id": 2758,
+      "name": "Кам’янське",
+      "alias": "dneprodzerzhynsk",
+      "region_id": 703
+  },
+  "2759": {
+      "id": 2759,
+      "name": "Дніпро",
+      "alias": "dnipropetrovsk",
+      "region_id": 703
+  },
+  "2760": {
+      "id": 2760,
+      "name": "Жовті Води",
+      "alias": "Zheltye-Vody",
+      "region_id": 703
+  },
+  "2761": {
+      "id": 2761,
+      "name": "Залізничне",
+      "alias": "Zaliznichnoe",
+      "region_id": 703
+  },
+  "2762": {
+      "id": 2762,
+      "name": "Зелене",
+      "alias": "Zelenoe",
+      "region_id": 703
+  },
+  "2763": {
+      "id": 2763,
+      "name": "Іларіонове",
+      "alias": "Illarionovo",
+      "region_id": 703
+  },
+  "2764": {
+      "id": 2764,
+      "name": "Інгулець",
+      "alias": "Inhulets",
+      "region_id": 703
+  },
+  "2765": {
+      "id": 2765,
+      "name": "Калініно",
+      "alias": "Kalinino",
+      "region_id": 703
+  },
+  "2766": {
+      "id": 2766,
+      "name": "Карнаухівка",
+      "alias": "Karnaukhovka",
+      "region_id": 703
+  },
+  "2767": {
+      "id": 2767,
+      "name": "Кривий Ріг",
+      "alias": "Kryvyy-Rih",
+      "region_id": 703
+  },
+  "2768": {
+      "id": 2768,
+      "name": "Кринички",
+      "alias": "Krinichki",
+      "region_id": 703
+  },
+  "2769": {
+      "id": 2769,
+      "name": "Магдалинівка",
+      "alias": "Mahdalinovka",
+      "region_id": 703
+  },
+  "2770": {
+      "id": 2770,
+      "name": "Марганець",
+      "alias": "Marhanets",
+      "region_id": 703
+  },
+  "2771": {
+      "id": 2771,
+      "name": "Межова",
+      "alias": "Mezhevaya",
+      "region_id": 703
+  },
+  "2772": {
+      "id": 2772,
+      "name": "Нікополь",
+      "alias": "Nikopol",
+      "region_id": 703
+  },
+  "2773": {
+      "id": 2773,
+      "name": "Новомосковськ",
+      "alias": "Novomoskovsk",
+      "region_id": 703
+  },
+  "2774": {
+      "id": 2774,
+      "name": "Покров",
+      "alias": "ordzhonikidze-1",
+      "region_id": 703
+  },
+  "2775": {
+      "id": 2775,
+      "name": "Павлоград",
+      "alias": "Pavlohrad",
+      "region_id": 703
+  },
+  "2776": {
+      "id": 2776,
+      "name": "Першотравенськ",
+      "alias": "Pershotravensk",
+      "region_id": 703
+  },
+  "2777": {
+      "id": 2777,
+      "name": "Петропавлівка",
+      "alias": "Petropavlovka-2",
+      "region_id": 703
+  },
+  "2778": {
+      "id": 2778,
+      "name": "Покровське",
+      "alias": "Pokrovskoe",
+      "region_id": 703
+  },
+  "2779": {
+      "id": 2779,
+      "name": "П'ятихатки",
+      "alias": "Pyatikhatki",
+      "region_id": 703
+  },
+  "2780": {
+      "id": 2780,
+      "name": "Синельникове",
+      "alias": "Sinelnikovo",
+      "region_id": 703
+  },
+  "2781": {
+      "id": 2781,
+      "name": "Софіївка",
+      "alias": "Sofievka",
+      "region_id": 703
+  },
+  "2782": {
+      "id": 2782,
+      "name": "Томаківка",
+      "alias": "Tomakovka",
+      "region_id": 703
+  },
+  "2783": {
+      "id": 2783,
+      "name": "Царичанка",
+      "alias": "Tsarichanka",
+      "region_id": 703
+  },
+  "2784": {
+      "id": 2784,
+      "name": "Широке",
+      "alias": "Shirokoe",
+      "region_id": 703
+  },
+  "2785": {
+      "id": 2785,
+      "name": "Авдіївка",
+      "alias": "Avdeevka",
+      "region_id": 704
+  },
+  "2786": {
+      "id": 2786,
+      "name": "Олександрівка",
+      "alias": "Aleksandrovka",
+      "region_id": 704
+  },
+  "2787": {
+      "id": 2787,
+      "name": "Олексієво-Дружківка",
+      "alias": "Alekseevo-Druzhkovka",
+      "region_id": 704
+  },
+  "2788": {
+      "id": 2788,
+      "name": "Амвросіївка",
+      "alias": "Amvrosievka",
+      "region_id": 704
+  },
+  "2789": {
+      "id": 2789,
+      "name": "Андріївка",
+      "alias": "Andreevka",
+      "region_id": 704
+  },
+  "2790": {
+      "id": 2790,
+      "name": "Артемово",
+      "alias": "Artemovo",
+      "region_id": 704
+  },
+  "2791": {
+      "id": 2791,
+      "name": "Бахмут",
+      "alias": "artemovsk",
+      "region_id": 704
+  },
+  "2792": {
+      "id": 2792,
+      "name": "Безіменне",
+      "alias": "Bezymennoe",
+      "region_id": 704
+  },
+  "2793": {
+      "id": 2793,
+      "name": "Біленьке",
+      "alias": "Belenkoe",
+      "region_id": 704
+  },
+  "2794": {
+      "id": 2794,
+      "name": "Білицьке",
+      "alias": "Belitskoe",
+      "region_id": 704
+  },
+  "2795": {
+      "id": 2795,
+      "name": "Благодатне",
+      "alias": "Blahodatnoe",
+      "region_id": 704
+  },
+  "2796": {
+      "id": 2796,
+      "name": "Билбасівка",
+      "alias": "Bylbasovka",
+      "region_id": 704
+  },
+  "2797": {
+      "id": 2797,
+      "name": "Велика Новосілка",
+      "alias": "Velikaya-Novoselka",
+      "region_id": 704
+  },
+  "2798": {
+      "id": 2798,
+      "name": "Войковский",
+      "alias": "Voykovskiy",
+      "region_id": 704
+  },
+  "2799": {
+      "id": 2799,
+      "name": "Волноваха",
+      "alias": "Volnovakha",
+      "region_id": 704
+  },
+  "2800": {
+      "id": 2800,
+      "name": "Володарське",
+      "alias": "Volodarskoe",
+      "region_id": 704
+  },
+  "2801": {
+      "id": 2801,
+      "name": "Гольмівський",
+      "alias": "Holmovskiy",
+      "region_id": 704
+  },
+  "2802": {
+      "id": 2802,
+      "name": "Горбачево-Михайлівка",
+      "alias": "Horbachevo-Mikhaylovka",
+      "region_id": 704
+  },
+  "2803": {
+      "id": 2803,
+      "name": "Горлівка",
+      "alias": "horlivka",
+      "region_id": 704
+  },
+  "2804": {
+      "id": 2804,
+      "name": "Гродівка",
+      "alias": "Hrodovka",
+      "region_id": 704
+  },
+  "2805": {
+      "id": 2805,
+      "name": "Грузько-Зорянське",
+      "alias": "Hruzsko-Zoryanskoe",
+      "region_id": 704
+  },
+  "2806": {
+      "id": 2806,
+      "name": "Дебальцеве",
+      "alias": "Debaltsevo",
+      "region_id": 704
+  },
+  "2807": {
+      "id": 2807,
+      "name": "Дзержинськ",
+      "alias": "Dzerzhinsk",
+      "region_id": 704
+  },
+  "2808": {
+      "id": 2808,
+      "name": "Димитров",
+      "alias": "Dimitrov",
+      "region_id": 704
+  },
+  "2809": {
+      "id": 2809,
+      "name": "Добропілля",
+      "alias": "Dobropole",
+      "region_id": 704
+  },
+  "2810": {
+      "id": 2810,
+      "name": "Докучаєвськ",
+      "alias": "Dokuchaevsk",
+      "region_id": 704
+  },
+  "2811": {
+      "id": 2811,
+      "name": "Донецьк",
+      "alias": "Donetsk",
+      "region_id": 704
+  },
+  "2813": {
+      "id": 2813,
+      "name": "Донське",
+      "alias": "Donskoe",
+      "region_id": 704
+  },
+  "2814": {
+      "id": 2814,
+      "name": "Дробишеве",
+      "alias": "Drobyshevo",
+      "region_id": 704
+  },
+  "2815": {
+      "id": 2815,
+      "name": "Дружківка",
+      "alias": "Druzhkovka",
+      "region_id": 704
+  },
+  "2816": {
+      "id": 2816,
+      "name": "Єнакієве",
+      "alias": "Enakievo",
+      "region_id": 704
+  },
+  "2817": {
+      "id": 2817,
+      "name": "Жданов",
+      "alias": "Zhdanov",
+      "region_id": 704
+  },
+  "2818": {
+      "id": 2818,
+      "name": "Бажане",
+      "alias": "Zhelannoe",
+      "region_id": 704
+  },
+  "2819": {
+      "id": 2819,
+      "name": "Зугрес",
+      "alias": "Zuhryes",
+      "region_id": 704
+  },
+  "2820": {
+      "id": 2820,
+      "name": "Зуївка",
+      "alias": "Zuevka",
+      "region_id": 704
+  },
+  "2821": {
+      "id": 2821,
+      "name": "Іловайськ",
+      "alias": "Ilovaysk",
+      "region_id": 704
+  },
+  "2822": {
+      "id": 2822,
+      "name": "Карло-Лібкнехтовськ",
+      "alias": "Karlo-Libknekhtovsk",
+      "region_id": 704
+  },
+  "2823": {
+      "id": 2823,
+      "name": "Карло-Марксове",
+      "alias": "Karlo-Marksovo",
+      "region_id": 704
+  },
+  "2824": {
+      "id": 2824,
+      "name": "Кіровськ",
+      "alias": "Kirovsk-2",
+      "region_id": 704
+  },
+  "2825": {
+      "id": 2825,
+      "name": "Костянтинівка",
+      "alias": "Konstantinovka",
+      "region_id": 704
+  },
+  "2826": {
+      "id": 2826,
+      "name": "Краматорськ",
+      "alias": "Kramatorsk",
+      "region_id": 704
+  },
+  "2827": {
+      "id": 2827,
+      "name": "Покровськ",
+      "alias": "Krasnoarmeysk",
+      "region_id": 704
+  },
+  "2828": {
+      "id": 2828,
+      "name": "Лиман",
+      "alias": "krasnyy-liman",
+      "region_id": 704
+  },
+  "2829": {
+      "id": 2829,
+      "name": "Макіївка",
+      "alias": "Makeevka",
+      "region_id": 704
+  },
+  "2830": {
+      "id": 2830,
+      "name": "Маріуполь",
+      "alias": "Mariupol",
+      "region_id": 704
+  },
+  "2831": {
+      "id": 2831,
+      "name": "Мар'їнка",
+      "alias": "Marinka",
+      "region_id": 704
+  },
+  "2832": {
+      "id": 2832,
+      "name": "Новоазовськ",
+      "alias": "Novoazovsk",
+      "region_id": 704
+  },
+  "2833": {
+      "id": 2833,
+      "name": "Новоекономічне",
+      "alias": "Novoyekonomicheskoe",
+      "region_id": 704
+  },
+  "2834": {
+      "id": 2834,
+      "name": "Першотравневе",
+      "alias": "Pershotravnevoe",
+      "region_id": 704
+  },
+  "2835": {
+      "id": 2835,
+      "name": "Селидове",
+      "alias": "selidovo",
+      "region_id": 704
+  },
+  "2836": {
+      "id": 2836,
+      "name": "Слов'янськ",
+      "alias": "Slavyansk",
+      "region_id": 704
+  },
+  "2837": {
+      "id": 2837,
+      "name": "Сніжне",
+      "alias": "Snezhnoe",
+      "region_id": 704
+  },
+  "2838": {
+      "id": 2838,
+      "name": "Старобешеве",
+      "alias": "Starobeshevo",
+      "region_id": 704
+  },
+  "2839": {
+      "id": 2839,
+      "name": "Тельманове",
+      "alias": "Telmanovo",
+      "region_id": 704
+  },
+  "2840": {
+      "id": 2840,
+      "name": "Торез",
+      "alias": "Torez",
+      "region_id": 704
+  },
+  "2841": {
+      "id": 2841,
+      "name": "Харцизьк",
+      "alias": "Khartsyzsk",
+      "region_id": 704
+  },
+  "2842": {
+      "id": 2842,
+      "name": "Шахтарськ",
+      "alias": "Shakhtersk",
+      "region_id": 704
+  },
+  "2843": {
+      "id": 2843,
+      "name": "Ясинувата",
+      "alias": "Yasinovataya",
+      "region_id": 704
+  },
+  "2865": {
+      "id": 2865,
+      "name": "Андрушівка",
+      "alias": "andrushevka",
+      "region_id": 705
+  },
+  "2866": {
+      "id": 2866,
+      "name": "Баранівка",
+      "alias": "Baranovka",
+      "region_id": 705
+  },
+  "2867": {
+      "id": 2867,
+      "name": "Біла Криниця",
+      "alias": "Belaya-Krinitsa",
+      "region_id": 705
+  },
+  "2868": {
+      "id": 2868,
+      "name": "Бердичів",
+      "alias": "Berdychiv",
+      "region_id": 705
+  },
+  "2869": {
+      "id": 2869,
+      "name": "Броницька Гута",
+      "alias": "Bronitskaya-Huta",
+      "region_id": 705
+  },
+  "2870": {
+      "id": 2870,
+      "name": "Брусилів",
+      "alias": "Brusilov",
+      "region_id": 705
+  },
+  "2871": {
+      "id": 2871,
+      "name": "Биківка",
+      "alias": "Bykovka",
+      "region_id": 705
+  },
+  "2872": {
+      "id": 2872,
+      "name": "Великі Коровинці",
+      "alias": "Velikie-Korovintsy",
+      "region_id": 705
+  },
+  "2873": {
+      "id": 2873,
+      "name": "Володарськ-Волинський",
+      "alias": "Volodarsk-Volynskiy",
+      "region_id": 705
+  },
+  "2874": {
+      "id": 2874,
+      "name": "Городниця",
+      "alias": "Horodnitsa",
+      "region_id": 705
+  },
+  "2875": {
+      "id": 2875,
+      "name": "Гришківці",
+      "alias": "Hrishkovtsy",
+      "region_id": 705
+  },
+  "2876": {
+      "id": 2876,
+      "name": "Дзержинськ",
+      "alias": "Dzerzhinsk-1",
+      "region_id": 705
+  },
+  "2877": {
+      "id": 2877,
+      "name": "Довбиш",
+      "alias": "Dovbysh",
+      "region_id": 705
+  },
+  "2878": {
+      "id": 2878,
+      "name": "Ємільчине",
+      "alias": "Emilchino",
+      "region_id": 705
+  },
+  "2879": {
+      "id": 2879,
+      "name": "Житомир",
+      "alias": "Zhytomyr",
+      "region_id": 705
+  },
+  "2880": {
+      "id": 2880,
+      "name": "Іванопіль",
+      "alias": "Ivanopol",
+      "region_id": 705
+  },
+  "2881": {
+      "id": 2881,
+      "name": "Кам'яний Брід",
+      "alias": "Kamennyy-Brod",
+      "region_id": 705
+  },
+  "2882": {
+      "id": 2882,
+      "name": "Коростень",
+      "alias": "Korosten",
+      "region_id": 705
+  },
+  "2883": {
+      "id": 2883,
+      "name": "Коростишів",
+      "alias": "Korostyshev",
+      "region_id": 705
+  },
+  "2884": {
+      "id": 2884,
+      "name": "Лугини",
+      "alias": "Luhiny",
+      "region_id": 705
+  },
+  "2885": {
+      "id": 2885,
+      "name": "Любар",
+      "alias": "Lyubar",
+      "region_id": 705
+  },
+  "2886": {
+      "id": 2886,
+      "name": "Малин",
+      "alias": "Malin",
+      "region_id": 705
+  },
+  "2887": {
+      "id": 2887,
+      "name": "Народичі",
+      "alias": "Narodichi",
+      "region_id": 705
+  },
+  "2888": {
+      "id": 2888,
+      "name": "Новоград-Волинський",
+      "alias": "Novohrad-Volynskyy",
+      "region_id": 705
+  },
+  "2889": {
+      "id": 2889,
+      "name": "Овруч",
+      "alias": "Ovruch",
+      "region_id": 705
+  },
+  "2890": {
+      "id": 2890,
+      "name": "Олевськ",
+      "alias": "Olevsk",
+      "region_id": 705
+  },
+  "2891": {
+      "id": 2891,
+      "name": "Попільня",
+      "alias": "Popelnya",
+      "region_id": 705
+  },
+  "2892": {
+      "id": 2892,
+      "name": "Радомишль",
+      "alias": "Radomyshl",
+      "region_id": 705
+  },
+  "2893": {
+      "id": 2893,
+      "name": "Ружин",
+      "alias": "Ruzhin",
+      "region_id": 705
+  },
+  "2894": {
+      "id": 2894,
+      "name": "Червоноармійська",
+      "alias": "Chervonoarmeysk",
+      "region_id": 705
+  },
+  "2895": {
+      "id": 2895,
+      "name": "Черняхів",
+      "alias": "Chernyakhov",
+      "region_id": 705
+  },
+  "2896": {
+      "id": 2896,
+      "name": "Чуднов",
+      "alias": "Chudnov",
+      "region_id": 705
+  },
+  "2898": {
+      "id": 2898,
+      "name": "Берегово",
+      "alias": "Berehovo",
+      "region_id": 706
+  },
+  "2899": {
+      "id": 2899,
+      "name": "Буштино",
+      "alias": "Bushtyna",
+      "region_id": 706
+  },
+  "2900": {
+      "id": 2900,
+      "name": "Великий Березний",
+      "alias": "Velikiy-Bereznyy",
+      "region_id": 706
+  },
+  "2901": {
+      "id": 2901,
+      "name": "Великий Бичків",
+      "alias": "Velikiy-Bychkov",
+      "region_id": 706
+  },
+  "2902": {
+      "id": 2902,
+      "name": "Виноградів",
+      "alias": "Vinohradov",
+      "region_id": 706
+  },
+  "2903": {
+      "id": 2903,
+      "name": "Воловець",
+      "alias": "Volovets",
+      "region_id": 706
+  },
+  "2904": {
+      "id": 2904,
+      "name": "Іршава",
+      "alias": "Irshava",
+      "region_id": 706
+  },
+  "2905": {
+      "id": 2905,
+      "name": "Міжгір'я",
+      "alias": "Mezhhore",
+      "region_id": 706
+  },
+  "2906": {
+      "id": 2906,
+      "name": "Мукачеве",
+      "alias": "Mukachevo",
+      "region_id": 706
+  },
+  "2907": {
+      "id": 2907,
+      "name": "Перечин",
+      "alias": "Perechin",
+      "region_id": 706
+  },
+  "2908": {
+      "id": 2908,
+      "name": "Рахів",
+      "alias": "Rakhov",
+      "region_id": 706
+  },
+  "2909": {
+      "id": 2909,
+      "name": "Свалява",
+      "alias": "Svalyava",
+      "region_id": 706
+  },
+  "2910": {
+      "id": 2910,
+      "name": "Тячів",
+      "alias": "tyachev",
+      "region_id": 706
+  },
+  "2912": {
+      "id": 2912,
+      "name": "Хуст",
+      "alias": "Khust",
+      "region_id": 706
+  },
+  "2913": {
+      "id": 2913,
+      "name": "Чоп",
+      "alias": "Chop",
+      "region_id": 706
+  },
+  "2942": {
+      "id": 2942,
+      "name": "Якимівка",
+      "alias": "Akimovka",
+      "region_id": 707
+  },
+  "2943": {
+      "id": 2943,
+      "name": "Андріївка",
+      "alias": "Andreevka-1",
+      "region_id": 707
+  },
+  "2944": {
+      "id": 2944,
+      "name": "Балабине",
+      "alias": "Balabino",
+      "region_id": 707
+  },
+  "2945": {
+      "id": 2945,
+      "name": "Бердянськ",
+      "alias": "Berdyansk",
+      "region_id": 707
+  },
+  "2946": {
+      "id": 2946,
+      "name": "Василівка",
+      "alias": "Vasilevka-1",
+      "region_id": 707
+  },
+  "2947": {
+      "id": 2947,
+      "name": "Веселе",
+      "alias": "Veseloe",
+      "region_id": 707
+  },
+  "2948": {
+      "id": 2948,
+      "name": "Гуляйполе",
+      "alias": "Hulyaypole",
+      "region_id": 707
+  },
+  "2949": {
+      "id": 2949,
+      "name": "Запоріжжя",
+      "alias": "zaporizhzhya",
+      "region_id": 707
+  },
+  "2950": {
+      "id": 2950,
+      "name": "Кам'янка-Дніпровська",
+      "alias": "Kamenka-Dneprovskaya",
+      "region_id": 707
+  },
+  "2951": {
+      "id": 2951,
+      "name": "Кам'яне",
+      "alias": "Kamennoe",
+      "region_id": 707
+  },
+  "2952": {
+      "id": 2952,
+      "name": "Комиш-Зоря",
+      "alias": "Kamysh-Zarya",
+      "region_id": 707
+  },
+  "2953": {
+      "id": 2953,
+      "name": "Куйбишеве",
+      "alias": "Kuybyshevo",
+      "region_id": 707
+  },
+  "2954": {
+      "id": 2954,
+      "name": "Мелітополь",
+      "alias": "Melitopol",
+      "region_id": 707
+  },
+  "2955": {
+      "id": 2955,
+      "name": "Михайлівка",
+      "alias": "Mikhaylovka-2",
+      "region_id": 707
+  },
+  "2956": {
+      "id": 2956,
+      "name": "Новомиколаївка",
+      "alias": "Novonikolaevka",
+      "region_id": 707
+  },
+  "2957": {
+      "id": 2957,
+      "name": "Горіхів",
+      "alias": "Orekhov",
+      "region_id": 707
+  },
+  "2958": {
+      "id": 2958,
+      "name": "Пологи",
+      "alias": "Polohi",
+      "region_id": 707
+  },
+  "2959": {
+      "id": 2959,
+      "name": "Приазовське",
+      "alias": "Priazovskoe",
+      "region_id": 707
+  },
+  "2960": {
+      "id": 2960,
+      "name": "Приморськ",
+      "alias": "Primorsk",
+      "region_id": 707
+  },
+  "2961": {
+      "id": 2961,
+      "name": "Токмак",
+      "alias": "Tokmak",
+      "region_id": 707
+  },
+  "2962": {
+      "id": 2962,
+      "name": "Чернігівка",
+      "alias": "Chernihovka",
+      "region_id": 707
+  },
+  "2963": {
+      "id": 2963,
+      "name": "Енергодар",
+      "alias": "Yenerhodar",
+      "region_id": 707
+  },
+  "2973": {
+      "id": 2973,
+      "name": "Богородчани",
+      "alias": "Bohorodchany",
+      "region_id": 708
+  },
+  "2974": {
+      "id": 2974,
+      "name": "Болехів",
+      "alias": "Bolekhov",
+      "region_id": 708
+  },
+  "2975": {
+      "id": 2975,
+      "name": "Більшівці",
+      "alias": "Bolshovtsy",
+      "region_id": 708
+  },
+  "2976": {
+      "id": 2976,
+      "name": "Брошнів-Осада",
+      "alias": "Broshnev-Osada",
+      "region_id": 708
+  },
+  "2977": {
+      "id": 2977,
+      "name": "Букачівці",
+      "alias": "Bukachevtsy",
+      "region_id": 708
+  },
+  "2978": {
+      "id": 2978,
+      "name": "Бурштин",
+      "alias": "Burshtyn",
+      "region_id": 708
+  },
+  "2979": {
+      "id": 2979,
+      "name": "Битків",
+      "alias": "Bytkov",
+      "region_id": 708
+  },
+  "2980": {
+      "id": 2980,
+      "name": "Верховина",
+      "alias": "Verkhovina",
+      "region_id": 708
+  },
+  "2981": {
+      "id": 2981,
+      "name": "Войнилів",
+      "alias": "voynilov",
+      "region_id": 708
+  },
+  "2982": {
+      "id": 2982,
+      "name": "Ворохта",
+      "alias": "Vorokhta",
+      "region_id": 708
+  },
+  "2983": {
+      "id": 2983,
+      "name": "Вигода",
+      "alias": "Vyhoda",
+      "region_id": 708
+  },
+  "2984": {
+      "id": 2984,
+      "name": "Галич",
+      "alias": "Halich",
+      "region_id": 708
+  },
+  "2985": {
+      "id": 2985,
+      "name": "Гвіздець",
+      "alias": "Hvozdets",
+      "region_id": 708
+  },
+  "2986": {
+      "id": 2986,
+      "name": "Городенка",
+      "alias": "Horodenka",
+      "region_id": 708
+  },
+  "2987": {
+      "id": 2987,
+      "name": "Делятин",
+      "alias": "Delyatin",
+      "region_id": 708
+  },
+  "2988": {
+      "id": 2988,
+      "name": "Жовтень",
+      "alias": "Zhovten",
+      "region_id": 708
+  },
+  "2989": {
+      "id": 2989,
+      "name": "Заболотів",
+      "alias": "Zabolotov",
+      "region_id": 708
+  },
+  "2990": {
+      "id": 2990,
+      "name": "Івано-Франківськ",
+      "alias": "Ivano-Frankivsk",
+      "region_id": 708
+  },
+  "2992": {
+      "id": 2992,
+      "name": "Калуш",
+      "alias": "Kalush",
+      "region_id": 708
+  },
+  "2993": {
+      "id": 2993,
+      "name": "Коломия",
+      "alias": "Kolomyya",
+      "region_id": 708
+  },
+  "2994": {
+      "id": 2994,
+      "name": "Косів",
+      "alias": "Kosov",
+      "region_id": 708
+  },
+  "2995": {
+      "id": 2995,
+      "name": "Надворна",
+      "alias": "Nadvorna",
+      "region_id": 708
+  },
+  "2996": {
+      "id": 2996,
+      "name": "Надвірна",
+      "alias": "Nadvornaya",
+      "region_id": 708
+  },
+  "2997": {
+      "id": 2997,
+      "name": "Рогатин",
+      "alias": "Rohatin",
+      "region_id": 708
+  },
+  "2998": {
+      "id": 2998,
+      "name": "Рожнятів",
+      "alias": "Rozhnyatov",
+      "region_id": 708
+  },
+  "2999": {
+      "id": 2999,
+      "name": "Снятин",
+      "alias": "Snyatyn",
+      "region_id": 708
+  },
+  "3000": {
+      "id": 3000,
+      "name": "Станіславів",
+      "alias": "Stanislavov",
+      "region_id": 708
+  },
+  "3001": {
+      "id": 3001,
+      "name": "Тлумач",
+      "alias": "Tlumach",
+      "region_id": 708
+  },
+  "3002": {
+      "id": 3002,
+      "name": "Тисмениця",
+      "alias": "Tysmenitsa",
+      "region_id": 708
+  },
+  "3003": {
+      "id": 3003,
+      "name": "Яремча",
+      "alias": "Yaremcha",
+      "region_id": 708
+  },
+  "4047": {
+      "id": 4047,
+      "name": "Баришівка",
+      "alias": "Baryshevka",
+      "region_id": 709
+  },
+  "4048": {
+      "id": 4048,
+      "name": "Біла Церква",
+      "alias": "Belaya-Tserkov",
+      "region_id": 709
+  },
+  "4051": {
+      "id": 4051,
+      "name": "Бориспіль",
+      "alias": "Boryspil",
+      "region_id": 709
+  },
+  "4054": {
+      "id": 4054,
+      "name": "Боярка",
+      "alias": "Boyarka",
+      "region_id": 709
+  },
+  "4055": {
+      "id": 4055,
+      "name": "Бровари",
+      "alias": "Brovary",
+      "region_id": 709
+  },
+  "4056": {
+      "id": 4056,
+      "name": "Васильків",
+      "alias": "Vasilkov",
+      "region_id": 709
+  },
+  "4057": {
+      "id": 4057,
+      "name": "Володарка",
+      "alias": "Volodarka",
+      "region_id": 709
+  },
+  "4059": {
+      "id": 4059,
+      "name": "Вишгород",
+      "alias": "Vyshhorod",
+      "region_id": 709
+  },
+  "4060": {
+      "id": 4060,
+      "name": "Гребінки",
+      "alias": "Hrebenki",
+      "region_id": 709
+  },
+  "4064": {
+      "id": 4064,
+      "name": "Ірпінь",
+      "alias": "Irpen",
+      "region_id": 709
+  },
+  "4066": {
+      "id": 4066,
+      "name": "Калинівка",
+      "alias": "Kalinovka-1",
+      "region_id": 709
+  },
+  "4067": {
+      "id": 4067,
+      "name": "Київ",
+      "alias": "kyyiv",
+      "region_id": 709
+  },
+  "4069": {
+      "id": 4069,
+      "name": "Кодра",
+      "alias": "Kodra",
+      "region_id": 709
+  },
+  "4070": {
+      "id": 4070,
+      "name": "Кожанка",
+      "alias": "Kozhanka",
+      "region_id": 709
+  },
+  "4071": {
+      "id": 4071,
+      "name": "Козин",
+      "alias": "Kozin",
+      "region_id": 709
+  },
+  "4072": {
+      "id": 4072,
+      "name": "Макаров",
+      "alias": "Makarov",
+      "region_id": 709
+  },
+  "4073": {
+      "id": 4073,
+      "name": "Обухів",
+      "alias": "Obukhov",
+      "region_id": 709
+  },
+  "4074": {
+      "id": 4074,
+      "name": "Переяслав-Хмельницький",
+      "alias": "Pereyaslav-Khmelnitskiy",
+      "region_id": 709
+  },
+  "4075": {
+      "id": 4075,
+      "name": "Поліське",
+      "alias": "Polesskoe",
+      "region_id": 709
+  },
+  "4076": {
+      "id": 4076,
+      "name": "Рокитне",
+      "alias": "Rakitnoe-1",
+      "region_id": 709
+  },
+  "4078": {
+      "id": 4078,
+      "name": "Славутич",
+      "alias": "Slavutich",
+      "region_id": 709
+  },
+  "4079": {
+      "id": 4079,
+      "name": "Ставище",
+      "alias": "Stavishche",
+      "region_id": 709
+  },
+  "4080": {
+      "id": 4080,
+      "name": "Тараща",
+      "alias": "Tarashcha",
+      "region_id": 709
+  },
+  "4081": {
+      "id": 4081,
+      "name": "Тетіїв",
+      "alias": "Tetiev",
+      "region_id": 709
+  },
+  "4082": {
+      "id": 4082,
+      "name": "Фастів",
+      "alias": "Fastov",
+      "region_id": 709
+  },
+  "4083": {
+      "id": 4083,
+      "name": "Чорнобиль",
+      "alias": "Chernobyl",
+      "region_id": 709
+  },
+  "4084": {
+      "id": 4084,
+      "name": "Яготин",
+      "alias": "Yahotin",
+      "region_id": 709
+  },
+  "4101": {
+      "id": 4101,
+      "name": "Алексадровка",
+      "alias": "Aleksadrovka",
+      "region_id": 710
+  },
+  "4102": {
+      "id": 4102,
+      "name": "Олександрія",
+      "alias": "Aleksandriya-2",
+      "region_id": 710
+  },
+  "4103": {
+      "id": 4103,
+      "name": "Бобринець",
+      "alias": "Bobrinets",
+      "region_id": 710
+  },
+  "4104": {
+      "id": 4104,
+      "name": "Гайворон",
+      "alias": "Hayvoron",
+      "region_id": 710
+  },
+  "4105": {
+      "id": 4105,
+      "name": "Голованівськ",
+      "alias": "Holovanevsk",
+      "region_id": 710
+  },
+  "4106": {
+      "id": 4106,
+      "name": "Добровеличківка",
+      "alias": "Dobrovelichkovka",
+      "region_id": 710
+  },
+  "4107": {
+      "id": 4107,
+      "name": "Долинська",
+      "alias": "Dolinskaya",
+      "region_id": 710
+  },
+  "4108": {
+      "id": 4108,
+      "name": "Єлизаветградка",
+      "alias": "Elizavethradka",
+      "region_id": 710
+  },
+  "4109": {
+      "id": 4109,
+      "name": "Завалля",
+      "alias": "Zavale",
+      "region_id": 710
+  },
+  "4110": {
+      "id": 4110,
+      "name": "Знам'янка",
+      "alias": "Znamenka",
+      "region_id": 710
+  },
+  "4111": {
+      "id": 4111,
+      "name": "Знам'янка-Друга",
+      "alias": "Znamenka-Vtoraya",
+      "region_id": 710
+  },
+  "4112": {
+      "id": 4112,
+      "name": "Капітанівка",
+      "alias": "Kapitanovka",
+      "region_id": 710
+  },
+  "4113": {
+      "id": 4113,
+      "name": "Кропивницький",
+      "alias": "kirovohrad",
+      "region_id": 710
+  },
+  "4114": {
+      "id": 4114,
+      "name": "Компаніївка",
+      "alias": "Kompaneevka",
+      "region_id": 710
+  },
+  "4115": {
+      "id": 4115,
+      "name": "Мала Виска",
+      "alias": "Malaya-Viska",
+      "region_id": 710
+  },
+  "4116": {
+      "id": 4116,
+      "name": "Новгородка",
+      "alias": "Novhorodka",
+      "region_id": 710
+  },
+  "4117": {
+      "id": 4117,
+      "name": "Новоархангельськ",
+      "alias": "Novoarkhanhelsk",
+      "region_id": 710
+  },
+  "4118": {
+      "id": 4118,
+      "name": "Новомиргород",
+      "alias": "Novomirhorod",
+      "region_id": 710
+  },
+  "4119": {
+      "id": 4119,
+      "name": "Новоукраїнка",
+      "alias": "Novoukrainka",
+      "region_id": 710
+  },
+  "4120": {
+      "id": 4120,
+      "name": "Вільшанка",
+      "alias": "Olshanka",
+      "region_id": 710
+  },
+  "4121": {
+      "id": 4121,
+      "name": "Онуфріївка",
+      "alias": "Onufrievka",
+      "region_id": 710
+  },
+  "4122": {
+      "id": 4122,
+      "name": "Петрове",
+      "alias": "Petrovo",
+      "region_id": 710
+  },
+  "4123": {
+      "id": 4123,
+      "name": "Світловодськ",
+      "alias": "Svetlovodsk",
+      "region_id": 710
+  },
+  "4124": {
+      "id": 4124,
+      "name": "Ульянівка",
+      "alias": "Ulyanovka",
+      "region_id": 710
+  },
+  "4125": {
+      "id": 4125,
+      "name": "Устинівка",
+      "alias": "Ustinovka",
+      "region_id": 710
+  },
+  "4496": {
+      "id": 4496,
+      "name": "Азовське",
+      "alias": "Azovske",
+      "region_id": 711
+  },
+  "4497": {
+      "id": 4497,
+      "name": "Алупка",
+      "alias": "Alupka",
+      "region_id": 711
+  },
+  "4498": {
+      "id": 4498,
+      "name": "Алушта",
+      "alias": "alushta",
+      "region_id": 711
+  },
+  "4499": {
+      "id": 4499,
+      "name": "Армянськ",
+      "alias": "Armyansk",
+      "region_id": 711
+  },
+  "4500": {
+      "id": 4500,
+      "name": "Багерово",
+      "alias": "Baherovo",
+      "region_id": 711
+  },
+  "4501": {
+      "id": 4501,
+      "name": "Балаклава",
+      "alias": "Balaklava",
+      "region_id": 711
+  },
+  "4502": {
+      "id": 4502,
+      "name": "Бахчисарай",
+      "alias": "Bakhchysaray",
+      "region_id": 711
+  },
+  "4503": {
+      "id": 4503,
+      "name": "Білогірськ",
+      "alias": "Bilohirsk",
+      "region_id": 711
+  },
+  "4504": {
+      "id": 4504,
+      "name": "Гаспра",
+      "alias": "Haspra",
+      "region_id": 711
+  },
+  "4505": {
+      "id": 4505,
+      "name": "Гвардійське",
+      "alias": "Hvardiyske",
+      "region_id": 711
+  },
+  "4506": {
+      "id": 4506,
+      "name": "Гурзуф",
+      "alias": "Hurzuf",
+      "region_id": 711
+  },
+  "4507": {
+      "id": 4507,
+      "name": "Джанкой",
+      "alias": "Dzhankoy",
+      "region_id": 711
+  },
+  "4508": {
+      "id": 4508,
+      "name": "Євпаторія",
+      "alias": "Yevpatoriya",
+      "region_id": 711
+  },
+  "4509": {
+      "id": 4509,
+      "name": "Зуя",
+      "alias": "Zuya",
+      "region_id": 711
+  },
+  "4510": {
+      "id": 4510,
+      "name": "Керч",
+      "alias": "Kerch",
+      "region_id": 711
+  },
+  "4511": {
+      "id": 4511,
+      "name": "Кіровське",
+      "alias": "Kirovske",
+      "region_id": 711
+  },
+  "4512": {
+      "id": 4512,
+      "name": "Красногвардійське",
+      "alias": "Krasnohvardiyske",
+      "region_id": 711
+  },
+  "4513": {
+      "id": 4513,
+      "name": "Красноперекопськ",
+      "alias": "Krasnoperekopsk",
+      "region_id": 711
+  },
+  "4514": {
+      "id": 4514,
+      "name": "Леніне",
+      "alias": "Lenine",
+      "region_id": 711
+  },
+  "4515": {
+      "id": 4515,
+      "name": "Масандра",
+      "alias": "Masandra",
+      "region_id": 711
+  },
+  "4516": {
+      "id": 4516,
+      "name": "Нижньогірський",
+      "alias": "Nyzhnohirskyy",
+      "region_id": 711
+  },
+  "4517": {
+      "id": 4517,
+      "name": "Первомайське",
+      "alias": "Pervomayske",
+      "region_id": 711
+  },
+  "4518": {
+      "id": 4518,
+      "name": "Роздольне",
+      "alias": "Rozdolne",
+      "region_id": 711
+  },
+  "4519": {
+      "id": 4519,
+      "name": "Саки",
+      "alias": "Saky",
+      "region_id": 711
+  },
+  "4520": {
+      "id": 4520,
+      "name": "Севастополь",
+      "alias": "Sevastopol",
+      "region_id": 711
+  },
+  "4521": {
+      "id": 4521,
+      "name": "Сімферополь",
+      "alias": "Simferopol",
+      "region_id": 711
+  },
+  "4522": {
+      "id": 4522,
+      "name": "Радянський",
+      "alias": "Radyanskyy",
+      "region_id": 711
+  },
+  "4523": {
+      "id": 4523,
+      "name": "Судак",
+      "alias": "Sudak",
+      "region_id": 711
+  },
+  "4524": {
+      "id": 4524,
+      "name": "Феодосія",
+      "alias": "Feodosiya",
+      "region_id": 711
+  },
+  "4525": {
+      "id": 4525,
+      "name": "Форос",
+      "alias": "Foros",
+      "region_id": 711
+  },
+  "4526": {
+      "id": 4526,
+      "name": "Чорноморське",
+      "alias": "Chornomorske",
+      "region_id": 711
+  },
+  "4527": {
+      "id": 4527,
+      "name": "Щолкіно",
+      "alias": "Shcholkino",
+      "region_id": 711
+  },
+  "4528": {
+      "id": 4528,
+      "name": "Ялта",
+      "alias": "yalta",
+      "region_id": 711
+  },
+  "4882": {
+      "id": 4882,
+      "name": "Олександрівськ",
+      "alias": "Aleksadrovsk",
+      "region_id": 712
+  },
+  "4883": {
+      "id": 4883,
+      "name": "Алчевськ",
+      "alias": "Alchevsk",
+      "region_id": 712
+  },
+  "4884": {
+      "id": 4884,
+      "name": "Антрацит",
+      "alias": "Antratsit",
+      "region_id": 712
+  },
+  "4885": {
+      "id": 4885,
+      "name": "Артемівськ",
+      "alias": "Artemovsk-2",
+      "region_id": 712
+  },
+  "4886": {
+      "id": 4886,
+      "name": "Байрачки",
+      "alias": "Bayrachki",
+      "region_id": 712
+  },
+  "4887": {
+      "id": 4887,
+      "name": "Біловодськ",
+      "alias": "Belovodsk",
+      "region_id": 712
+  },
+  "4888": {
+      "id": 4888,
+      "name": "Білогорівка",
+      "alias": "Belohorovka",
+      "region_id": 712
+  },
+  "4889": {
+      "id": 4889,
+      "name": "Біле",
+      "alias": "Beloe",
+      "region_id": 712
+  },
+  "4890": {
+      "id": 4890,
+      "name": "Білокуракине",
+      "alias": "Belokurakino",
+      "region_id": 712
+  },
+  "4891": {
+      "id": 4891,
+      "name": "Білолуцьк",
+      "alias": "Belolutsk",
+      "region_id": 712
+  },
+  "4892": {
+      "id": 4892,
+      "name": "Бірюкове",
+      "alias": "Biryukovo",
+      "region_id": 712
+  },
+  "4893": {
+      "id": 4893,
+      "name": "Боково-Платово",
+      "alias": "Bokovo-Platovo",
+      "region_id": 712
+  },
+  "4894": {
+      "id": 4894,
+      "name": "Борівське",
+      "alias": "Borovskoe",
+      "region_id": 712
+  },
+  "4895": {
+      "id": 4895,
+      "name": "Брянка",
+      "alias": "Bryanka",
+      "region_id": 712
+  },
+  "4896": {
+      "id": 4896,
+      "name": "Бугаївка",
+      "alias": "Buhaevka",
+      "region_id": 712
+  },
+  "4897": {
+      "id": 4897,
+      "name": "Вахрушеве",
+      "alias": "Vakhrushevo",
+      "region_id": 712
+  },
+  "4898": {
+      "id": 4898,
+      "name": "Великий Лог",
+      "alias": "Velikiy-Loh",
+      "region_id": 712
+  },
+  "4899": {
+      "id": 4899,
+      "name": "Вергулівка",
+      "alias": "Verhulevka",
+      "region_id": 712
+  },
+  "4900": {
+      "id": 4900,
+      "name": "Володарськ",
+      "alias": "Volodarsk",
+      "region_id": 712
+  },
+  "4901": {
+      "id": 4901,
+      "name": "Вовчоярівка",
+      "alias": "Volcheyarovka",
+      "region_id": 712
+  },
+  "4902": {
+      "id": 4902,
+      "name": "Ворошиловград",
+      "alias": "Voroshilovhrad",
+      "region_id": 712
+  },
+  "4903": {
+      "id": 4903,
+      "name": "Врубівка",
+      "alias": "Vrubovka",
+      "region_id": 712
+  },
+  "4904": {
+      "id": 4904,
+      "name": "Врубівський",
+      "alias": "Vrubovskiy",
+      "region_id": 712
+  },
+  "4905": {
+      "id": 4905,
+      "name": "Георгіївка",
+      "alias": "Heorhievka-1",
+      "region_id": 712
+  },
+  "4906": {
+      "id": 4906,
+      "name": "Гірське",
+      "alias": "Horskoe",
+      "region_id": 712
+  },
+  "4907": {
+      "id": 4907,
+      "name": "Єсаулівка",
+      "alias": "Esaulovka",
+      "region_id": 712
+  },
+  "4908": {
+      "id": 4908,
+      "name": "Зимогір'я",
+      "alias": "Zimohore",
+      "region_id": 712
+  },
+  "4909": {
+      "id": 4909,
+      "name": "Золоте",
+      "alias": "Zolotoe",
+      "region_id": 712
+  },
+  "4910": {
+      "id": 4910,
+      "name": "Зоринськ",
+      "alias": "Zorinsk",
+      "region_id": 712
+  },
+  "4911": {
+      "id": 4911,
+      "name": "Ізварине",
+      "alias": "Izvarino",
+      "region_id": 712
+  },
+  "4912": {
+      "id": 4912,
+      "name": "Калінінський",
+      "alias": "Kalininskiy",
+      "region_id": 712
+  },
+  "4913": {
+      "id": 4913,
+      "name": "Калинове",
+      "alias": "Kalinovo",
+      "region_id": 712
+  },
+  "4914": {
+      "id": 4914,
+      "name": "Комишуваха",
+      "alias": "Kamyshevakha",
+      "region_id": 712
+  },
+  "4915": {
+      "id": 4915,
+      "name": "Кіровськ",
+      "alias": "Kirovsk-3",
+      "region_id": 712
+  },
+  "4916": {
+      "id": 4916,
+      "name": "Комунарськ",
+      "alias": "Kommunarsk",
+      "region_id": 712
+  },
+  "4917": {
+      "id": 4917,
+      "name": "Краснодон",
+      "alias": "Krasnodon",
+      "region_id": 712
+  },
+  "4918": {
+      "id": 4918,
+      "name": "Красний Луч",
+      "alias": "Krasnyy-Luch",
+      "region_id": 712
+  },
+  "4919": {
+      "id": 4919,
+      "name": "Кремінна",
+      "alias": "Kremennaya",
+      "region_id": 712
+  },
+  "4920": {
+      "id": 4920,
+      "name": "Лисичанськ",
+      "alias": "Lisichansk",
+      "region_id": 712
+  },
+  "4921": {
+      "id": 4921,
+      "name": "Луганськ",
+      "alias": "Luhansk",
+      "region_id": 712
+  },
+  "4922": {
+      "id": 4922,
+      "name": "Лутугине",
+      "alias": "Lutuhino",
+      "region_id": 712
+  },
+  "4923": {
+      "id": 4923,
+      "name": "Марківка",
+      "alias": "Markovka",
+      "region_id": 712
+  },
+  "4924": {
+      "id": 4924,
+      "name": "Мілове",
+      "alias": "Melovoe",
+      "region_id": 712
+  },
+  "4925": {
+      "id": 4925,
+      "name": "Новоайдар",
+      "alias": "Novoaydar",
+      "region_id": 712
+  },
+  "4926": {
+      "id": 4926,
+      "name": "Новопсков",
+      "alias": "Novopskov",
+      "region_id": 712
+  },
+  "4927": {
+      "id": 4927,
+      "name": "Первомайськ",
+      "alias": "Pervomaysk",
+      "region_id": 712
+  },
+  "4928": {
+      "id": 4928,
+      "name": "Перевальськ",
+      "alias": "Perevalsk",
+      "region_id": 712
+  },
+  "4929": {
+      "id": 4929,
+      "name": "Попасна",
+      "alias": "Popasnaya",
+      "region_id": 712
+  },
+  "4930": {
+      "id": 4930,
+      "name": "Ровеньки",
+      "alias": "Rovenki-1",
+      "region_id": 712
+  },
+  "4931": {
+      "id": 4931,
+      "name": "Рубіжне",
+      "alias": "Rubezhnoe",
+      "region_id": 712
+  },
+  "4932": {
+      "id": 4932,
+      "name": "Сватове",
+      "alias": "Svatovo",
+      "region_id": 712
+  },
+  "4933": {
+      "id": 4933,
+      "name": "Свердловськ",
+      "alias": "Sverdlovsk",
+      "region_id": 712
+  },
+  "4934": {
+      "id": 4934,
+      "name": "Сєвєродонецьк",
+      "alias": "Severodonetsk",
+      "region_id": 712
+  },
+  "4935": {
+      "id": 4935,
+      "name": "Слов'яносербськ",
+      "alias": "Slavyanoserbsk",
+      "region_id": 712
+  },
+  "4936": {
+      "id": 4936,
+      "name": "Станично-Луганське",
+      "alias": "Stanichno-Luhanskoe",
+      "region_id": 712
+  },
+  "4937": {
+      "id": 4937,
+      "name": "Старобільськ",
+      "alias": "Starobelsk",
+      "region_id": 712
+  },
+  "4938": {
+      "id": 4938,
+      "name": "Стаханов",
+      "alias": "Stakhanov",
+      "region_id": 712
+  },
+  "4939": {
+      "id": 4939,
+      "name": "Троїцьке",
+      "alias": "Troitskoe-2",
+      "region_id": 712
+  },
+  "5005": {
+      "id": 5005,
+      "name": "Белз",
+      "alias": "Belz",
+      "region_id": 713
+  },
+  "5006": {
+      "id": 5006,
+      "name": "Бібрка",
+      "alias": "Bobrka",
+      "region_id": 713
+  },
+  "5007": {
+      "id": 5007,
+      "name": "Борислав",
+      "alias": "Boryslav",
+      "region_id": 713
+  },
+  "5008": {
+      "id": 5008,
+      "name": "Броди",
+      "alias": "Brody",
+      "region_id": 713
+  },
+  "5009": {
+      "id": 5009,
+      "name": "Буськ",
+      "alias": "Busk",
+      "region_id": 713
+  },
+  "5010": {
+      "id": 5010,
+      "name": "Великі Мости",
+      "alias": "Velikie-Mosty",
+      "region_id": 713
+  },
+  "5011": {
+      "id": 5011,
+      "name": "Верхнє Синьовидне",
+      "alias": "Verkhnee-Sinevidnoe",
+      "region_id": 713
+  },
+  "5012": {
+      "id": 5012,
+      "name": "Винники",
+      "alias": "Vinniki",
+      "region_id": 713
+  },
+  "5013": {
+      "id": 5013,
+      "name": "Глиняни",
+      "alias": "Hlinyany",
+      "region_id": 713
+  },
+  "5014": {
+      "id": 5014,
+      "name": "Гірник",
+      "alias": "Hornyak-1",
+      "region_id": 713
+  },
+  "5015": {
+      "id": 5015,
+      "name": "Дашава",
+      "alias": "Dashava",
+      "region_id": 713
+  },
+  "5016": {
+      "id": 5016,
+      "name": "Добротвір",
+      "alias": "Dobrotvor",
+      "region_id": 713
+  },
+  "5017": {
+      "id": 5017,
+      "name": "Дрогобич",
+      "alias": "Drohobych",
+      "region_id": 713
+  },
+  "5018": {
+      "id": 5018,
+      "name": "Жидачів",
+      "alias": "Zhidachov",
+      "region_id": 713
+  },
+  "5019": {
+      "id": 5019,
+      "name": "Жолкіїв",
+      "alias": "Zholkiev",
+      "region_id": 713
+  },
+  "5020": {
+      "id": 5020,
+      "name": "Золочів",
+      "alias": "Zolochev",
+      "region_id": 713
+  },
+  "5021": {
+      "id": 5021,
+      "name": "Івано-Франкове",
+      "alias": "Ivano-Frankovo",
+      "region_id": 713
+  },
+  "5022": {
+      "id": 5022,
+      "name": "Кам'янка-Бузька",
+      "alias": "Kamenka-Buhskaya",
+      "region_id": 713
+  },
+  "5023": {
+      "id": 5023,
+      "name": "Львів",
+      "alias": "Lviv",
+      "region_id": 713
+  },
+  "5024": {
+      "id": 5024,
+      "name": "Мостиська",
+      "alias": "Mostiska",
+      "region_id": 713
+  },
+  "5025": {
+      "id": 5025,
+      "name": "Жовква",
+      "alias": "Nesterov-1",
+      "region_id": 713
+  },
+  "5026": {
+      "id": 5026,
+      "name": "Миколаїв (Льв. обл)",
+      "alias": "Nikolaev",
+      "region_id": 713
+  },
+  "5027": {
+      "id": 5027,
+      "name": "Перемишляни",
+      "alias": "Peremyshlyany",
+      "region_id": 713
+  },
+  "5028": {
+      "id": 5028,
+      "name": "Пустомити",
+      "alias": "Pustomyty",
+      "region_id": 713
+  },
+  "5029": {
+      "id": 5029,
+      "name": "Рава Руська",
+      "alias": "Rava-Russkaya",
+      "region_id": 713
+  },
+  "5030": {
+      "id": 5030,
+      "name": "Радехів",
+      "alias": "Radekhov",
+      "region_id": 713
+  },
+  "5031": {
+      "id": 5031,
+      "name": "Самбір",
+      "alias": "Sambor",
+      "region_id": 713
+  },
+  "5032": {
+      "id": 5032,
+      "name": "Сколе",
+      "alias": "Skole",
+      "region_id": 713
+  },
+  "5033": {
+      "id": 5033,
+      "name": "Сокаль",
+      "alias": "Sokal",
+      "region_id": 713
+  },
+  "5034": {
+      "id": 5034,
+      "name": "Старий Самбір",
+      "alias": "Staryy-Sambor",
+      "region_id": 713
+  },
+  "5035": {
+      "id": 5035,
+      "name": "Стрий",
+      "alias": "Stryy",
+      "region_id": 713
+  },
+  "5036": {
+      "id": 5036,
+      "name": "Трускавець",
+      "alias": "Truskavets",
+      "region_id": 713
+  },
+  "5037": {
+      "id": 5037,
+      "name": "Турка",
+      "alias": "Turka",
+      "region_id": 713
+  },
+  "5038": {
+      "id": 5038,
+      "name": "Червоноград",
+      "alias": "Chervonohrad",
+      "region_id": 713
+  },
+  "5039": {
+      "id": 5039,
+      "name": "Яворів",
+      "alias": "Yavorov",
+      "region_id": 713
+  },
+  "6317": {
+      "id": 6317,
+      "name": "Олександрівка",
+      "alias": "Aleksandrovka-1",
+      "region_id": 714
+  },
+  "6318": {
+      "id": 6318,
+      "name": "Арбузинка",
+      "alias": "Arbuzinka",
+      "region_id": 714
+  },
+  "6319": {
+      "id": 6319,
+      "name": "Баштанка",
+      "alias": "Bashtanka",
+      "region_id": 714
+  },
+  "6320": {
+      "id": 6320,
+      "name": "Березнегувате",
+      "alias": "Bereznehovatoe",
+      "region_id": 714
+  },
+  "6321": {
+      "id": 6321,
+      "name": "Братське",
+      "alias": "Bratskoe",
+      "region_id": 714
+  },
+  "6322": {
+      "id": 6322,
+      "name": "Велика Корениха",
+      "alias": "Velikaya-Korenikha",
+      "region_id": 714
+  },
+  "6323": {
+      "id": 6323,
+      "name": "Веселинове",
+      "alias": "Veselinovo",
+      "region_id": 714
+  },
+  "6324": {
+      "id": 6324,
+      "name": "Вознесенськ",
+      "alias": "Voznesensk",
+      "region_id": 714
+  },
+  "6325": {
+      "id": 6325,
+      "name": "Доманівка",
+      "alias": "Domanevka",
+      "region_id": 714
+  },
+  "6326": {
+      "id": 6326,
+      "name": "Єланець",
+      "alias": "Elanets",
+      "region_id": 714
+  },
+  "6327": {
+      "id": 6327,
+      "name": "Казанка",
+      "alias": "Kazanka",
+      "region_id": 714
+  },
+  "6328": {
+      "id": 6328,
+      "name": "Криве Озеро",
+      "alias": "Krivoe-Ozero",
+      "region_id": 714
+  },
+  "6329": {
+      "id": 6329,
+      "name": "Миколаїв",
+      "alias": "Mykolayiv",
+      "region_id": 714
+  },
+  "6330": {
+      "id": 6330,
+      "name": "Нова Одеса",
+      "alias": "Novaya-Odessa",
+      "region_id": 714
+  },
+  "6331": {
+      "id": 6331,
+      "name": "Новий Буг",
+      "alias": "Novyy-Buh",
+      "region_id": 714
+  },
+  "6332": {
+      "id": 6332,
+      "name": "Очаків",
+      "alias": "Ochakov",
+      "region_id": 714
+  },
+  "6333": {
+      "id": 6333,
+      "name": "Первомайськ",
+      "alias": "Pervomaysk-2",
+      "region_id": 714
+  },
+  "6334": {
+      "id": 6334,
+      "name": "Снігурівка",
+      "alias": "Snihirevka",
+      "region_id": 714
+  },
+  "6335": {
+      "id": 6335,
+      "name": "Южноукраїнськ",
+      "alias": "Yuzhnoukrainsk",
+      "region_id": 714
+  },
+  "7176": {
+      "id": 7176,
+      "name": "Аккерман",
+      "alias": "Akkerman-1",
+      "region_id": 715
+  },
+  "7177": {
+      "id": 7177,
+      "name": "Ананьїв",
+      "alias": "Ananev",
+      "region_id": 715
+  },
+  "7178": {
+      "id": 7178,
+      "name": "Арциз",
+      "alias": "Artsiz",
+      "region_id": 715
+  },
+  "7179": {
+      "id": 7179,
+      "name": "Балта",
+      "alias": "Balta",
+      "region_id": 715
+  },
+  "7180": {
+      "id": 7180,
+      "name": "Білгород-Дністровський",
+      "alias": "Belhorod-Dnestrovskiy",
+      "region_id": 715
+  },
+  "7181": {
+      "id": 7181,
+      "name": "Біляївка",
+      "alias": "Belyaevka",
+      "region_id": 715
+  },
+  "7182": {
+      "id": 7182,
+      "name": "Березино",
+      "alias": "Berezino-1",
+      "region_id": 715
+  },
+  "7183": {
+      "id": 7183,
+      "name": "Березівка",
+      "alias": "Berezovka",
+      "region_id": 715
+  },
+  "7184": {
+      "id": 7184,
+      "name": "Болград",
+      "alias": "Bolhrad",
+      "region_id": 715
+  },
+  "7185": {
+      "id": 7185,
+      "name": "Бородіно",
+      "alias": "Borodino-2",
+      "region_id": 715
+  },
+  "7186": {
+      "id": 7186,
+      "name": "Велика Михайлівка",
+      "alias": "Velikaya-Mikhaylovka",
+      "region_id": 715
+  },
+  "7187": {
+      "id": 7187,
+      "name": "Велікодолінінское",
+      "alias": "Velikodolininskoe",
+      "region_id": 715
+  },
+  "7188": {
+      "id": 7188,
+      "name": "Вилкове",
+      "alias": "Vilkovo",
+      "region_id": 715
+  },
+  "7189": {
+      "id": 7189,
+      "name": "Затишшя",
+      "alias": "Zatishe",
+      "region_id": 715
+  },
+  "7190": {
+      "id": 7190,
+      "name": "Ізмаїл",
+      "alias": "Izmail",
+      "region_id": 715
+  },
+  "7191": {
+      "id": 7191,
+      "name": "Чорноморськ",
+      "alias": "illichivsk",
+      "region_id": 715
+  },
+  "7192": {
+      "id": 7192,
+      "name": "Кілія",
+      "alias": "kiliya",
+      "region_id": 715
+  },
+  "7193": {
+      "id": 7193,
+      "name": "Кодима",
+      "alias": "Kodyma",
+      "region_id": 715
+  },
+  "7194": {
+      "id": 7194,
+      "name": "Комінтернівське",
+      "alias": "Kominternovskoe",
+      "region_id": 715
+  },
+  "7195": {
+      "id": 7195,
+      "name": "Подільськ",
+      "alias": "kotovsk-1",
+      "region_id": 715
+  },
+  "7196": {
+      "id": 7196,
+      "name": "Красні Окни",
+      "alias": "Krasnye-Okny",
+      "region_id": 715
+  },
+  "7197": {
+      "id": 7197,
+      "name": "Любашівка",
+      "alias": "Lyubashevka",
+      "region_id": 715
+  },
+  "7198": {
+      "id": 7198,
+      "name": "Миколаївка",
+      "alias": "Nikolaevka",
+      "region_id": 715
+  },
+  "7199": {
+      "id": 7199,
+      "name": "Овідіополь",
+      "alias": "Ovidiopol",
+      "region_id": 715
+  },
+  "7200": {
+      "id": 7200,
+      "name": "Одеса",
+      "alias": "odesa",
+      "region_id": 715
+  },
+  "7201": {
+      "id": 7201,
+      "name": "Роздільна",
+      "alias": "Razdelnaya",
+      "region_id": 715
+  },
+  "7202": {
+      "id": 7202,
+      "name": "Рені",
+      "alias": "Reni",
+      "region_id": 715
+  },
+  "7203": {
+      "id": 7203,
+      "name": "Саврань",
+      "alias": "Savran",
+      "region_id": 715
+  },
+  "7204": {
+      "id": 7204,
+      "name": "Сарата",
+      "alias": "Sarata",
+      "region_id": 715
+  },
+  "7205": {
+      "id": 7205,
+      "name": "Тарутине",
+      "alias": "Tarutino",
+      "region_id": 715
+  },
+  "7206": {
+      "id": 7206,
+      "name": "Татарбунари",
+      "alias": "Tatarbunary",
+      "region_id": 715
+  },
+  "7207": {
+      "id": 7207,
+      "name": "Фрунзівка",
+      "alias": "Frunzovka",
+      "region_id": 715
+  },
+  "7208": {
+      "id": 7208,
+      "name": "Ширяєве",
+      "alias": "Shiryaevo",
+      "region_id": 715
+  },
+  "7209": {
+      "id": 7209,
+      "name": "Південний",
+      "alias": "Pivdennyy",
+      "region_id": 715
+  },
+  "7863": {
+      "id": 7863,
+      "name": "Білики",
+      "alias": "Beliki",
+      "region_id": 716
+  },
+  "7864": {
+      "id": 7864,
+      "name": "Велика Багачка",
+      "alias": "Velikaya-Bahachka",
+      "region_id": 716
+  },
+  "7865": {
+      "id": 7865,
+      "name": "Гадяч",
+      "alias": "Hadyach",
+      "region_id": 716
+  },
+  "7866": {
+      "id": 7866,
+      "name": "Глобине",
+      "alias": "Hlobino",
+      "region_id": 716
+  },
+  "7867": {
+      "id": 7867,
+      "name": "Гоголеве",
+      "alias": "Hoholevo",
+      "region_id": 716
+  },
+  "7868": {
+      "id": 7868,
+      "name": "Градизьк",
+      "alias": "Hradizhsk",
+      "region_id": 716
+  },
+  "7869": {
+      "id": 7869,
+      "name": "Гребінка",
+      "alias": "Hrebenka",
+      "region_id": 716
+  },
+  "7870": {
+      "id": 7870,
+      "name": "Диканька",
+      "alias": "Dikanka",
+      "region_id": 716
+  },
+  "7871": {
+      "id": 7871,
+      "name": "Зіньків",
+      "alias": "Zenkov",
+      "region_id": 716
+  },
+  "7872": {
+      "id": 7872,
+      "name": "Карлівка",
+      "alias": "Karlovka",
+      "region_id": 716
+  },
+  "7873": {
+      "id": 7873,
+      "name": "Кобеляки",
+      "alias": "Kobelyaki",
+      "region_id": 716
+  },
+  "7874": {
+      "id": 7874,
+      "name": "Козельщина",
+      "alias": "Kozelshchina",
+      "region_id": 716
+  },
+  "7875": {
+      "id": 7875,
+      "name": "Горішні Плавні",
+      "alias": "komsomolsk-1",
+      "region_id": 716
+  },
+  "7876": {
+      "id": 7876,
+      "name": "Котельва",
+      "alias": "Kotelva",
+      "region_id": 716
+  },
+  "7877": {
+      "id": 7877,
+      "name": "Кременчук",
+      "alias": "Kremenchuk",
+      "region_id": 716
+  },
+  "7878": {
+      "id": 7878,
+      "name": "Лохвиця",
+      "alias": "Lokhvitsa",
+      "region_id": 716
+  },
+  "7879": {
+      "id": 7879,
+      "name": "Лубни",
+      "alias": "Lubny",
+      "region_id": 716
+  },
+  "7880": {
+      "id": 7880,
+      "name": "Машівка",
+      "alias": "Mashevka",
+      "region_id": 716
+  },
+  "7881": {
+      "id": 7881,
+      "name": "Миргород",
+      "alias": "Mirhorod",
+      "region_id": 716
+  },
+  "7882": {
+      "id": 7882,
+      "name": "Нові Санжари",
+      "alias": "Novye-Sanzhary",
+      "region_id": 716
+  },
+  "7883": {
+      "id": 7883,
+      "name": "Оржиця",
+      "alias": "Orzhitsa",
+      "region_id": 716
+  },
+  "7884": {
+      "id": 7884,
+      "name": "Пирятин",
+      "alias": "Piryantin",
+      "region_id": 716
+  },
+  "7885": {
+      "id": 7885,
+      "name": "Пирятин",
+      "alias": "Piryatin",
+      "region_id": 716
+  },
+  "7886": {
+      "id": 7886,
+      "name": "Полтава",
+      "alias": "Poltava",
+      "region_id": 716
+  },
+  "7887": {
+      "id": 7887,
+      "name": "Решетилівка",
+      "alias": "Reshetilovka",
+      "region_id": 716
+  },
+  "7888": {
+      "id": 7888,
+      "name": "Семенівка",
+      "alias": "Semenovka",
+      "region_id": 716
+  },
+  "7889": {
+      "id": 7889,
+      "name": "Хорол",
+      "alias": "Khorol",
+      "region_id": 716
+  },
+  "7890": {
+      "id": 7890,
+      "name": "Чорнухи",
+      "alias": "Chernukhi",
+      "region_id": 716
+  },
+  "7891": {
+      "id": 7891,
+      "name": "Чутове",
+      "alias": "Chutovo",
+      "region_id": 716
+  },
+  "7892": {
+      "id": 7892,
+      "name": "Шишаки",
+      "alias": "Shishaki",
+      "region_id": 716
+  },
+  "8032": {
+      "id": 8032,
+      "name": "Володимирець",
+      "alias": "Volodymyrets",
+      "region_id": 717
+  },
+  "8035": {
+      "id": 8035,
+      "name": "Дубно",
+      "alias": "Dubno",
+      "region_id": 717
+  },
+  "8038": {
+      "id": 8038,
+      "name": "Здолбунів",
+      "alias": "Zdolbuniv",
+      "region_id": 717
+  },
+  "8039": {
+      "id": 8039,
+      "name": "Клевань",
+      "alias": "Klevan",
+      "region_id": 717
+  },
+  "8041": {
+      "id": 8041,
+      "name": "Корець",
+      "alias": "Korets",
+      "region_id": 717
+  },
+  "8042": {
+      "id": 8042,
+      "name": "Костопіль",
+      "alias": "Kostopil",
+      "region_id": 717
+  },
+  "8043": {
+      "id": 8043,
+      "name": "Вараш",
+      "alias": "Kuznetsovsk",
+      "region_id": 717
+  },
+  "8045": {
+      "id": 8045,
+      "name": "Острог",
+      "alias": "Ostroh",
+      "region_id": 717
+  },
+  "8046": {
+      "id": 8046,
+      "name": "Рівне",
+      "alias": "rivne",
+      "region_id": 717
+  },
+  "8047": {
+      "id": 8047,
+      "name": "Сарни",
+      "alias": "sarny",
+      "region_id": 717
+  },
+  "8048": {
+      "id": 8048,
+      "name": "Червоноармійськ",
+      "alias": "Chervonoarmiysk",
+      "region_id": 717
+  },
+  "8894": {
+      "id": 8894,
+      "name": "Охтирка",
+      "alias": "Akhtyrka",
+      "region_id": 718
+  },
+  "8895": {
+      "id": 8895,
+      "name": "Білопілля",
+      "alias": "Belopole",
+      "region_id": 718
+  },
+  "8896": {
+      "id": 8896,
+      "name": "Буринь",
+      "alias": "Buryn",
+      "region_id": 718
+  },
+  "8897": {
+      "id": 8897,
+      "name": "Велика Писарівка",
+      "alias": "Velikaya-Pisarevka",
+      "region_id": 718
+  },
+  "8898": {
+      "id": 8898,
+      "name": "Ворожба",
+      "alias": "Vorozhba",
+      "region_id": 718
+  },
+  "8899": {
+      "id": 8899,
+      "name": "Воронеж",
+      "alias": "Voronezh-1",
+      "region_id": 718
+  },
+  "8900": {
+      "id": 8900,
+      "name": "Глухів",
+      "alias": "Hlukhov",
+      "region_id": 718
+  },
+  "8901": {
+      "id": 8901,
+      "name": "Дружба",
+      "alias": "Druzhba",
+      "region_id": 718
+  },
+  "8902": {
+      "id": 8902,
+      "name": "Зноб-Новгородське",
+      "alias": "Znob-Novhorodskoe",
+      "region_id": 718
+  },
+  "8903": {
+      "id": 8903,
+      "name": "Кириківка",
+      "alias": "Kirikovka",
+      "region_id": 718
+  },
+  "8904": {
+      "id": 8904,
+      "name": "Конотоп",
+      "alias": "Konotop",
+      "region_id": 718
+  },
+  "8905": {
+      "id": 8905,
+      "name": "Краснопілля",
+      "alias": "Krasnopole-1",
+      "region_id": 718
+  },
+  "8906": {
+      "id": 8906,
+      "name": "Кролевець",
+      "alias": "krolevets",
+      "region_id": 718
+  },
+  "8907": {
+      "id": 8907,
+      "name": "Лебедин",
+      "alias": "Lebedin",
+      "region_id": 718
+  },
+  "8908": {
+      "id": 8908,
+      "name": "Долина",
+      "alias": "Lipovaya-Dolina",
+      "region_id": 718
+  },
+  "8909": {
+      "id": 8909,
+      "name": "Недригайлів",
+      "alias": "Nedrihaylov",
+      "region_id": 718
+  },
+  "8910": {
+      "id": 8910,
+      "name": "Путивль",
+      "alias": "Putivl",
+      "region_id": 718
+  },
+  "8911": {
+      "id": 8911,
+      "name": "Ромни",
+      "alias": "Romny-1",
+      "region_id": 718
+  },
+  "8912": {
+      "id": 8912,
+      "name": "Середина-Буда",
+      "alias": "Seredina-Buda",
+      "region_id": 718
+  },
+  "8913": {
+      "id": 8913,
+      "name": "Суми",
+      "alias": "Sumy",
+      "region_id": 718
+  },
+  "8914": {
+      "id": 8914,
+      "name": "Тростянець",
+      "alias": "Trostyanets-1",
+      "region_id": 718
+  },
+  "8915": {
+      "id": 8915,
+      "name": "Шостка",
+      "alias": "Shostka",
+      "region_id": 718
+  },
+  "8916": {
+      "id": 8916,
+      "name": "Шурупинське",
+      "alias": "Shurupinskoe",
+      "region_id": 718
+  },
+  "8917": {
+      "id": 8917,
+      "name": "Ямпіль",
+      "alias": "Yampol-1",
+      "region_id": 718
+  },
+  "9346": {
+      "id": 9346,
+      "name": "Бережани",
+      "alias": "Berezhany",
+      "region_id": 719
+  },
+  "9347": {
+      "id": 9347,
+      "name": "Борщів",
+      "alias": "Borshchev",
+      "region_id": 719
+  },
+  "9348": {
+      "id": 9348,
+      "name": "Бучач",
+      "alias": "Buchach",
+      "region_id": 719
+  },
+  "9349": {
+      "id": 9349,
+      "name": "Великі Бірки",
+      "alias": "Velikie-Borki",
+      "region_id": 719
+  },
+  "9350": {
+      "id": 9350,
+      "name": "Вишнівець",
+      "alias": "Vishnevets",
+      "region_id": 719
+  },
+  "9351": {
+      "id": 9351,
+      "name": "Гримайлів",
+      "alias": "Hrimaylov",
+      "region_id": 719
+  },
+  "9352": {
+      "id": 9352,
+      "name": "Гусятин",
+      "alias": "Husyatin",
+      "region_id": 719
+  },
+  "9353": {
+      "id": 9353,
+      "name": "Заліщики",
+      "alias": "Zaleshchiki",
+      "region_id": 719
+  },
+  "9354": {
+      "id": 9354,
+      "name": "Залізці",
+      "alias": "Zalozhtsy",
+      "region_id": 719
+  },
+  "9355": {
+      "id": 9355,
+      "name": "Збараж",
+      "alias": "Zbarazh",
+      "region_id": 719
+  },
+  "9356": {
+      "id": 9356,
+      "name": "Зборів",
+      "alias": "Zborov",
+      "region_id": 719
+  },
+  "9357": {
+      "id": 9357,
+      "name": "Золотники",
+      "alias": "Zolotniki",
+      "region_id": 719
+  },
+  "9358": {
+      "id": 9358,
+      "name": "Золотий Потік",
+      "alias": "Zolotoypotok",
+      "region_id": 719
+  },
+  "9359": {
+      "id": 9359,
+      "name": "Козлов",
+      "alias": "Kozlov",
+      "region_id": 719
+  },
+  "9360": {
+      "id": 9360,
+      "name": "Козова",
+      "alias": "Kozova",
+      "region_id": 719
+  },
+  "9361": {
+      "id": 9361,
+      "name": "Кременець",
+      "alias": "Kremenets",
+      "region_id": 719
+  },
+  "9362": {
+      "id": 9362,
+      "name": "Ланівці",
+      "alias": "Lanovtsy",
+      "region_id": 719
+  },
+  "9363": {
+      "id": 9363,
+      "name": "Монастириська",
+      "alias": "Monastyriska",
+      "region_id": 719
+  },
+  "9364": {
+      "id": 9364,
+      "name": "Підволочиськ",
+      "alias": "Podvolochisk",
+      "region_id": 719
+  },
+  "9365": {
+      "id": 9365,
+      "name": "Теребовля",
+      "alias": "Terebovlya",
+      "region_id": 719
+  },
+  "9366": {
+      "id": 9366,
+      "name": "Тернопіль",
+      "alias": "ternopil",
+      "region_id": 719
+  },
+  "9367": {
+      "id": 9367,
+      "name": "Чортків",
+      "alias": "Chortkov",
+      "region_id": 719
+  },
+  "9368": {
+      "id": 9368,
+      "name": "Шумське",
+      "alias": "Shumskoe",
+      "region_id": 719
+  },
+  "9718": {
+      "id": 9718,
+      "name": "Артек",
+      "alias": "Artek",
+      "region_id": 711
+  },
+  "9719": {
+      "id": 9719,
+      "name": "Берегові",
+      "alias": "Berehove",
+      "region_id": 711
+  },
+  "9720": {
+      "id": 9720,
+      "name": "Ботанічне",
+      "alias": "Botanichne",
+      "region_id": 711
+  },
+  "9721": {
+      "id": 9721,
+      "name": "Кастрополь",
+      "alias": "Kastropol",
+      "region_id": 711
+  },
+  "9722": {
+      "id": 9722,
+      "name": "Кацівелі",
+      "alias": "Katsyveli",
+      "region_id": 711
+  },
+  "9723": {
+      "id": 9723,
+      "name": "Кореїз",
+      "alias": "Koreyiz",
+      "region_id": 711
+  },
+  "9724": {
+      "id": 9724,
+      "name": "Красногвардійськ",
+      "alias": "Krasnohvardiysk",
+      "region_id": 711
+  },
+  "9725": {
+      "id": 9725,
+      "name": "Краснокам'янка",
+      "alias": "Krasnokamyanka",
+      "region_id": 711
+  },
+  "9726": {
+      "id": 9726,
+      "name": "Курпати",
+      "alias": "Kurpaty",
+      "region_id": 711
+  },
+  "9727": {
+      "id": 9727,
+      "name": "Лівадія",
+      "alias": "Livadiya",
+      "region_id": 711
+  },
+  "9728": {
+      "id": 9728,
+      "name": "Місхор",
+      "alias": "Miskhor",
+      "region_id": 711
+  },
+  "9729": {
+      "id": 9729,
+      "name": "Олива",
+      "alias": "Olyva",
+      "region_id": 711
+  },
+  "9730": {
+      "id": 9730,
+      "name": "Оползневе",
+      "alias": "Opolzneve",
+      "region_id": 711
+  },
+  "9731": {
+      "id": 9731,
+      "name": "Паркове",
+      "alias": "Parkove",
+      "region_id": 711
+  },
+  "9732": {
+      "id": 9732,
+      "name": "Понізівка",
+      "alias": "Ponyzivka",
+      "region_id": 711
+  },
+  "9733": {
+      "id": 9733,
+      "name": "санаторно",
+      "alias": "Sanatorne",
+      "region_id": 711
+  },
+  "9734": {
+      "id": 9734,
+      "name": "Сімеїз",
+      "alias": "Simeyiz",
+      "region_id": 711
+  },
+  "10252": {
+      "id": 10252,
+      "name": "Балаклія",
+      "alias": "Balakleya",
+      "region_id": 721
+  },
+  "10253": {
+      "id": 10253,
+      "name": "Барвінкове",
+      "alias": "Barvenkovo",
+      "region_id": 721
+  },
+  "10254": {
+      "id": 10254,
+      "name": "Близнюки",
+      "alias": "Bliznyuki",
+      "region_id": 721
+  },
+  "10255": {
+      "id": 10255,
+      "name": "Богодухів",
+      "alias": "Bohodukhov",
+      "region_id": 721
+  },
+  "10256": {
+      "id": 10256,
+      "name": "Бірки",
+      "alias": "Borki",
+      "region_id": 721
+  },
+  "10257": {
+      "id": 10257,
+      "name": "Борова",
+      "alias": "Borovaya",
+      "region_id": 721
+  },
+  "10258": {
+      "id": 10258,
+      "name": "Буди",
+      "alias": "Budy",
+      "region_id": 721
+  },
+  "10259": {
+      "id": 10259,
+      "name": "Валки",
+      "alias": "Valki",
+      "region_id": 721
+  },
+  "10260": {
+      "id": 10260,
+      "name": "Великий Бурлук",
+      "alias": "Velikiy-Burluk",
+      "region_id": 721
+  },
+  "10261": {
+      "id": 10261,
+      "name": "Вовчанськ",
+      "alias": "Volchansk-1",
+      "region_id": 721
+  },
+  "10262": {
+      "id": 10262,
+      "name": "Готвальд",
+      "alias": "Hotvald",
+      "region_id": 721
+  },
+  "10263": {
+      "id": 10263,
+      "name": "Гути",
+      "alias": "Huty",
+      "region_id": 721
+  },
+  "10264": {
+      "id": 10264,
+      "name": "Дергачі",
+      "alias": "Derhachi-1",
+      "region_id": 721
+  },
+  "10265": {
+      "id": 10265,
+      "name": "Зачепилівка",
+      "alias": "Zachepilovka",
+      "region_id": 721
+  },
+  "10266": {
+      "id": 10266,
+      "name": "Зидьки",
+      "alias": "Zidki",
+      "region_id": 721
+  },
+  "10267": {
+      "id": 10267,
+      "name": "Золочів",
+      "alias": "Zolochev-1",
+      "region_id": 721
+  },
+  "10268": {
+      "id": 10268,
+      "name": "Ізюм",
+      "alias": "Izyum",
+      "region_id": 721
+  },
+  "10269": {
+      "id": 10269,
+      "name": "Козача Лопань",
+      "alias": "Kazachya-Lopan",
+      "region_id": 721
+  },
+  "10270": {
+      "id": 10270,
+      "name": "Кегичівка",
+      "alias": "Kehichevka",
+      "region_id": 721
+  },
+  "10271": {
+      "id": 10271,
+      "name": "Красноград",
+      "alias": "Krasnohrad",
+      "region_id": 721
+  },
+  "10272": {
+      "id": 10272,
+      "name": "Краснокутськ",
+      "alias": "Krasnokutsk-1",
+      "region_id": 721
+  },
+  "10273": {
+      "id": 10273,
+      "name": "Куп'янськ",
+      "alias": "Kupyansk",
+      "region_id": 721
+  },
+  "10274": {
+      "id": 10274,
+      "name": "Лозова",
+      "alias": "Lozovaya",
+      "region_id": 721
+  },
+  "10275": {
+      "id": 10275,
+      "name": "Люботин",
+      "alias": "Lyubotin",
+      "region_id": 721
+  },
+  "10276": {
+      "id": 10276,
+      "name": "Мерефа",
+      "alias": "Merefa",
+      "region_id": 721
+  },
+  "10277": {
+      "id": 10277,
+      "name": "Нова Водолага",
+      "alias": "Novaya-Vodolaha",
+      "region_id": 721
+  },
+  "10278": {
+      "id": 10278,
+      "name": "Первомайський",
+      "alias": "Pervomayskiy-3",
+      "region_id": 721
+  },
+  "10279": {
+      "id": 10279,
+      "name": "Пісочин",
+      "alias": "Pesochin",
+      "region_id": 721
+  },
+  "10280": {
+      "id": 10280,
+      "name": "Сахновщина",
+      "alias": "Sakhnovshchina",
+      "region_id": 721
+  },
+  "10281": {
+      "id": 10281,
+      "name": "Харків",
+      "alias": "Kharkiv",
+      "region_id": 721
+  },
+  "10282": {
+      "id": 10282,
+      "name": "Чугуїв",
+      "alias": "Chuhuev",
+      "region_id": 721
+  },
+  "10283": {
+      "id": 10283,
+      "name": "Шевченкове",
+      "alias": "Shevchenkovo",
+      "region_id": 721
+  },
+  "10310": {
+      "id": 10310,
+      "name": "Асканія-Нова",
+      "alias": "Askaniya-Nova",
+      "region_id": 722
+  },
+  "10311": {
+      "id": 10311,
+      "name": "Біла Криниця",
+      "alias": "Belaya-Krinitsa-1",
+      "region_id": 722
+  },
+  "10312": {
+      "id": 10312,
+      "name": "Білозерка",
+      "alias": "Belozerka",
+      "region_id": 722
+  },
+  "10313": {
+      "id": 10313,
+      "name": "Берислав",
+      "alias": "Berislav",
+      "region_id": 722
+  },
+  "10314": {
+      "id": 10314,
+      "name": "Велика Олександрівка",
+      "alias": "Velikaya-Aleksandrovka",
+      "region_id": 722
+  },
+  "10315": {
+      "id": 10315,
+      "name": "Велика Лепетиха",
+      "alias": "Velikaya-Lepetikha",
+      "region_id": 722
+  },
+  "10316": {
+      "id": 10316,
+      "name": "Верхній Рогачик",
+      "alias": "Verkhniy-Rohachik",
+      "region_id": 722
+  },
+  "10317": {
+      "id": 10317,
+      "name": "Високопілля",
+      "alias": "Vysokopole",
+      "region_id": 722
+  },
+  "10318": {
+      "id": 10318,
+      "name": "Генічеськ",
+      "alias": "Henichesk",
+      "region_id": 722
+  },
+  "10319": {
+      "id": 10319,
+      "name": "Гола Пристань",
+      "alias": "Holaya-Pristan",
+      "region_id": 722
+  },
+  "10320": {
+      "id": 10320,
+      "name": "Горностаївка",
+      "alias": "Hornostaevka",
+      "region_id": 722
+  },
+  "10321": {
+      "id": 10321,
+      "name": "Дніпряни",
+      "alias": "Dnepryany",
+      "region_id": 722
+  },
+  "10322": {
+      "id": 10322,
+      "name": "Каланчак",
+      "alias": "Kalanchak",
+      "region_id": 722
+  },
+  "10323": {
+      "id": 10323,
+      "name": "Калінінське",
+      "alias": "Kalininskoe",
+      "region_id": 722
+  },
+  "10324": {
+      "id": 10324,
+      "name": "Каховка",
+      "alias": "Kakhovka",
+      "region_id": 722
+  },
+  "10325": {
+      "id": 10325,
+      "name": "Нижні Сірогози",
+      "alias": "Nizhnie-Serohozy",
+      "region_id": 722
+  },
+  "10326": {
+      "id": 10326,
+      "name": "Нова Каховка",
+      "alias": "Novaya-Kakhovka",
+      "region_id": 722
+  },
+  "10327": {
+      "id": 10327,
+      "name": "Нововоронцовка",
+      "alias": "Novovorontsovka",
+      "region_id": 722
+  },
+  "10328": {
+      "id": 10328,
+      "name": "Новотроїцьке",
+      "alias": "Novotroitskoe-1",
+      "region_id": 722
+  },
+  "10329": {
+      "id": 10329,
+      "name": "Скадовськ",
+      "alias": "skadovsk",
+      "region_id": 722
+  },
+  "10330": {
+      "id": 10330,
+      "name": "Херсон",
+      "alias": "Kherson",
+      "region_id": 722
+  },
+  "10331": {
+      "id": 10331,
+      "name": "Олешки",
+      "alias": "Tsyurupinsk",
+      "region_id": 722
+  },
+  "10332": {
+      "id": 10332,
+      "name": "Чаплинка",
+      "alias": "Chaplinka",
+      "region_id": 722
+  },
+  "10348": {
+      "id": 10348,
+      "name": "Антоніни",
+      "alias": "Antoniny",
+      "region_id": 723
+  },
+  "10349": {
+      "id": 10349,
+      "name": "Базалія",
+      "alias": "Bazaliya",
+      "region_id": 723
+  },
+  "10350": {
+      "id": 10350,
+      "name": "Білогір'я",
+      "alias": "Belohore",
+      "region_id": 723
+  },
+  "10351": {
+      "id": 10351,
+      "name": "Віньківці",
+      "alias": "vinkovtsy",
+      "region_id": 723
+  },
+  "10352": {
+      "id": 10352,
+      "name": "Волочиськ",
+      "alias": "Volochisk",
+      "region_id": 723
+  },
+  "10353": {
+      "id": 10353,
+      "name": "Городок",
+      "alias": "Horodok-1",
+      "region_id": 723
+  },
+  "10354": {
+      "id": 10354,
+      "name": "Гриців",
+      "alias": "Hritsev",
+      "region_id": 723
+  },
+  "10355": {
+      "id": 10355,
+      "name": "Деражня",
+      "alias": "Derazhnya",
+      "region_id": 723
+  },
+  "10356": {
+      "id": 10356,
+      "name": "Дунаївці",
+      "alias": "Dunaevtsy",
+      "region_id": 723
+  },
+  "10357": {
+      "id": 10357,
+      "name": "Ізяслав",
+      "alias": "Izyaslav",
+      "region_id": 723
+  },
+  "10358": {
+      "id": 10358,
+      "name": "Кам'янець-Подільський",
+      "alias": "Kamyanets-Podilskyy",
+      "region_id": 723
+  },
+  "10359": {
+      "id": 10359,
+      "name": "Красилів",
+      "alias": "Krasilov",
+      "region_id": 723
+  },
+  "10360": {
+      "id": 10360,
+      "name": "Летичів",
+      "alias": "Letichev",
+      "region_id": 723
+  },
+  "10361": {
+      "id": 10361,
+      "name": "Нетішин",
+      "alias": "Neteshin",
+      "region_id": 723
+  },
+  "10362": {
+      "id": 10362,
+      "name": "Нова Ушиця",
+      "alias": "Novaya-Ushitsa",
+      "region_id": 723
+  },
+  "10363": {
+      "id": 10363,
+      "name": "Полонне",
+      "alias": "Polonnoe",
+      "region_id": 723
+  },
+  "10364": {
+      "id": 10364,
+      "name": "Славута",
+      "alias": "Slavuta",
+      "region_id": 723
+  },
+  "10365": {
+      "id": 10365,
+      "name": "Стара Синява",
+      "alias": "Staraya-Sinyava",
+      "region_id": 723
+  },
+  "10366": {
+      "id": 10366,
+      "name": "Старокостянтинів",
+      "alias": "Starokonstantinov",
+      "region_id": 723
+  },
+  "10367": {
+      "id": 10367,
+      "name": "Теофіполь",
+      "alias": "Teofipol",
+      "region_id": 723
+  },
+  "10368": {
+      "id": 10368,
+      "name": "Хмельницький",
+      "alias": "Khmelnytskyy",
+      "region_id": 723
+  },
+  "10369": {
+      "id": 10369,
+      "name": "Чемерівці",
+      "alias": "Chemerovtsy",
+      "region_id": 723
+  },
+  "10370": {
+      "id": 10370,
+      "name": "Шепетівка",
+      "alias": "Shepetovka",
+      "region_id": 723
+  },
+  "10371": {
+      "id": 10371,
+      "name": "Ярмолинці",
+      "alias": "Yarmolintsy",
+      "region_id": 723
+  },
+  "10501": {
+      "id": 10501,
+      "name": "Ватутіне",
+      "alias": "Vatutino",
+      "region_id": 724
+  },
+  "10502": {
+      "id": 10502,
+      "name": "Городище",
+      "alias": "Horodishche-3",
+      "region_id": 724
+  },
+  "10503": {
+      "id": 10503,
+      "name": "Драбів",
+      "alias": "Drabov",
+      "region_id": 724
+  },
+  "10504": {
+      "id": 10504,
+      "name": "Єрки",
+      "alias": "Erki",
+      "region_id": 724
+  },
+  "10505": {
+      "id": 10505,
+      "name": "Жашків",
+      "alias": "Zhashkov",
+      "region_id": 724
+  },
+  "10506": {
+      "id": 10506,
+      "name": "Зараевск",
+      "alias": "Zaraevsk",
+      "region_id": 724
+  },
+  "10507": {
+      "id": 10507,
+      "name": "Звенигородка",
+      "alias": "Zvenihorodka",
+      "region_id": 724
+  },
+  "10508": {
+      "id": 10508,
+      "name": "Золотоноша",
+      "alias": "Zolotonosha",
+      "region_id": 724
+  },
+  "10509": {
+      "id": 10509,
+      "name": "Ірдинь",
+      "alias": "Irdyn",
+      "region_id": 724
+  },
+  "10510": {
+      "id": 10510,
+      "name": "Кам'янка",
+      "alias": "Kamenka-3",
+      "region_id": 724
+  },
+  "10511": {
+      "id": 10511,
+      "name": "Катеринопіль",
+      "alias": "Katerinopol",
+      "region_id": 724
+  },
+  "10512": {
+      "id": 10512,
+      "name": "Корсунь-Шевченківський",
+      "alias": "Korsun-Shevchenkovskiy",
+      "region_id": 724
+  },
+  "10513": {
+      "id": 10513,
+      "name": "Лисянка",
+      "alias": "Lysyanka",
+      "region_id": 724
+  },
+  "10514": {
+      "id": 10514,
+      "name": "Маньківка",
+      "alias": "Mankovka",
+      "region_id": 724
+  },
+  "10515": {
+      "id": 10515,
+      "name": "Монастирище",
+      "alias": "Monastyrishche",
+      "region_id": 724
+  },
+  "10516": {
+      "id": 10516,
+      "name": "Сміла",
+      "alias": "Smela",
+      "region_id": 724
+  },
+  "10517": {
+      "id": 10517,
+      "name": "Тальне",
+      "alias": "Talnoe",
+      "region_id": 724
+  },
+  "10518": {
+      "id": 10518,
+      "name": "Умань",
+      "alias": "Uman",
+      "region_id": 724
+  },
+  "10519": {
+      "id": 10519,
+      "name": "Христинівка",
+      "alias": "khristinovka",
+      "region_id": 724
+  },
+  "10520": {
+      "id": 10520,
+      "name": "Черкаси",
+      "alias": "Cherkasy",
+      "region_id": 724
+  },
+  "10521": {
+      "id": 10521,
+      "name": "Чорнобай",
+      "alias": "Chornobay",
+      "region_id": 724
+  },
+  "10522": {
+      "id": 10522,
+      "name": "Чигирин",
+      "alias": "Chihirin",
+      "region_id": 724
+  },
+  "10523": {
+      "id": 10523,
+      "name": "Шпола",
+      "alias": "Shpola",
+      "region_id": 724
+  },
+  "10524": {
+      "id": 10524,
+      "name": "Батурин",
+      "alias": "Baturin",
+      "region_id": 725
+  },
+  "10525": {
+      "id": 10525,
+      "name": "Бахмач",
+      "alias": "Bakhmach",
+      "region_id": 725
+  },
+  "10526": {
+      "id": 10526,
+      "name": "Березна",
+      "alias": "Berezna",
+      "region_id": 725
+  },
+  "10527": {
+      "id": 10527,
+      "name": "Бобровиця",
+      "alias": "Bobrovitsa",
+      "region_id": 725
+  },
+  "10528": {
+      "id": 10528,
+      "name": "Борзна",
+      "alias": "Borzna",
+      "region_id": 725
+  },
+  "10529": {
+      "id": 10529,
+      "name": "Варва",
+      "alias": "Varva",
+      "region_id": 725
+  },
+  "10530": {
+      "id": 10530,
+      "name": "Вертіївка",
+      "alias": "Vertievka",
+      "region_id": 725
+  },
+  "10531": {
+      "id": 10531,
+      "name": "Городня",
+      "alias": "horodnya",
+      "region_id": 725
+  },
+  "10532": {
+      "id": 10532,
+      "name": "Замглай",
+      "alias": "Zamhlay",
+      "region_id": 725
+  },
+  "10533": {
+      "id": 10533,
+      "name": "Ічня",
+      "alias": "Ichnya",
+      "region_id": 725
+  },
+  "10534": {
+      "id": 10534,
+      "name": "Козелець",
+      "alias": "Kozelets",
+      "region_id": 725
+  },
+  "10535": {
+      "id": 10535,
+      "name": "Короп",
+      "alias": "Korop",
+      "region_id": 725
+  },
+  "10536": {
+      "id": 10536,
+      "name": "Корюківка",
+      "alias": "Koryukovka",
+      "region_id": 725
+  },
+  "10537": {
+      "id": 10537,
+      "name": "Куликівка",
+      "alias": "Kulikovka",
+      "region_id": 725
+  },
+  "10538": {
+      "id": 10538,
+      "name": "Мена",
+      "alias": "Mena-1",
+      "region_id": 725
+  },
+  "10539": {
+      "id": 10539,
+      "name": "Ніжин",
+      "alias": "Nezhin",
+      "region_id": 725
+  },
+  "10540": {
+      "id": 10540,
+      "name": "Новгород Сіверський",
+      "alias": "Novhorod-Severskiy",
+      "region_id": 725
+  },
+  "10541": {
+      "id": 10541,
+      "name": "Носівка",
+      "alias": "Nosovka",
+      "region_id": 725
+  },
+  "10542": {
+      "id": 10542,
+      "name": "Прилуки",
+      "alias": "Priluki",
+      "region_id": 725
+  },
+  "10543": {
+      "id": 10543,
+      "name": "Ріпки",
+      "alias": "Repki",
+      "region_id": 725
+  },
+  "10544": {
+      "id": 10544,
+      "name": "Семенівка",
+      "alias": "Semenovka-1",
+      "region_id": 725
+  },
+  "10545": {
+      "id": 10545,
+      "name": "Сосниця",
+      "alias": "Sosnitsa",
+      "region_id": 725
+  },
+  "10546": {
+      "id": 10546,
+      "name": "Талалаївка",
+      "alias": "Talalaevka",
+      "region_id": 725
+  },
+  "10547": {
+      "id": 10547,
+      "name": "Чернігів",
+      "alias": "Chernihiv",
+      "region_id": 725
+  },
+  "10548": {
+      "id": 10548,
+      "name": "Сновськ",
+      "alias": "shchors",
+      "region_id": 725
+  },
+  "10549": {
+      "id": 10549,
+      "name": "Берегомет",
+      "alias": "Berehomet",
+      "region_id": 726
+  },
+  "10550": {
+      "id": 10550,
+      "name": "Вашківці",
+      "alias": "Vashkovtsy",
+      "region_id": 726
+  },
+  "10551": {
+      "id": 10551,
+      "name": "Вижниця",
+      "alias": "Vizhnitsa",
+      "region_id": 726
+  },
+  "10552": {
+      "id": 10552,
+      "name": "Герца",
+      "alias": "Hertsa",
+      "region_id": 726
+  },
+  "10553": {
+      "id": 10553,
+      "name": "Глибока",
+      "alias": "Hlybokaya",
+      "region_id": 726
+  },
+  "10554": {
+      "id": 10554,
+      "name": "Заставна",
+      "alias": "Zastavna",
+      "region_id": 726
+  },
+  "10555": {
+      "id": 10555,
+      "name": "Кельменці",
+      "alias": "Kelmentsy",
+      "region_id": 726
+  },
+  "10556": {
+      "id": 10556,
+      "name": "Кіцмань",
+      "alias": "Kitsman",
+      "region_id": 726
+  },
+  "10557": {
+      "id": 10557,
+      "name": "Новоселиця",
+      "alias": "Novoselitsa",
+      "region_id": 726
+  },
+  "10558": {
+      "id": 10558,
+      "name": "Путила",
+      "alias": "Putila",
+      "region_id": 726
+  },
+  "10559": {
+      "id": 10559,
+      "name": "Сокиряни",
+      "alias": "Sokiryany",
+      "region_id": 726
+  },
+  "10560": {
+      "id": 10560,
+      "name": "Сторожинець",
+      "alias": "Storozhinets",
+      "region_id": 726
+  },
+  "10561": {
+      "id": 10561,
+      "name": "Хотин",
+      "alias": "Khotin",
+      "region_id": 726
+  },
+  "10562": {
+      "id": 10562,
+      "name": "Чернівці",
+      "alias": "Chernivtsi",
+      "region_id": 726
+  },
+  "10970": {
+      "id": 10970,
+      "name": "Ужгород",
+      "alias": "Uzhhorod",
+      "region_id": 706
+  },
+  "10971": {
+      "id": 10971,
+      "name": "Поляниця",
+      "alias": "Polyanytsa",
+      "region_id": 708
+  },
+  "10972": {
+      "id": 10972,
+      "name": "Микуличин",
+      "alias": "Mykulychyn",
+      "region_id": 701
+  },
+  "10973": {
+      "id": 10973,
+      "name": "Микуличин",
+      "alias": "Mykulychyn-1",
+      "region_id": 708
+  },
+  "10975": {
+      "id": 10975,
+      "name": "Татарів",
+      "alias": "Tatarov",
+      "region_id": 708
+  },
+  "10976": {
+      "id": 10976,
+      "name": "Яблуниця",
+      "alias": "Yablunytsya",
+      "region_id": 708
+  },
+  "10977": {
+      "id": 10977,
+      "name": "Славське",
+      "alias": "Slavske",
+      "region_id": 713
+  },
+  "10978": {
+      "id": 10978,
+      "name": "Синевир",
+      "alias": "Synevyr",
+      "region_id": 706
+  },
+  "10979": {
+      "id": 10979,
+      "name": "Буча",
+      "alias": "Bucha",
+      "region_id": 709
+  },
+  "10980": {
+      "id": 10980,
+      "name": "Вишневе",
+      "alias": "Vyshneve",
+      "region_id": 709
+  },
+  "10981": {
+      "id": 10981,
+      "name": "Канів",
+      "alias": "Kaniv",
+      "region_id": 724
+  },
+  "10982": {
+      "id": 10982,
+      "name": "Гостомель",
+      "alias": "Hostomel",
+      "region_id": 709
+  },
+  "10983": {
+      "id": 10983,
+      "name": "Чабани",
+      "alias": "chabany",
+      "region_id": 709
+  }
+}

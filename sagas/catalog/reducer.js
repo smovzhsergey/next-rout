@@ -18,7 +18,7 @@ export const catalogReducer = (state = initialState, {payload, type}) => {
 
         return {
           ...state,
-          currentRoute: { ...state.currentRoute, ...payload },
+          currentRoute: payload,
         };
         
       default:

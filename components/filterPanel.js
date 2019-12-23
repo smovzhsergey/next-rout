@@ -1,13 +1,12 @@
 import Filter from './filters';
 
-const filterPanel = ({cb, fields: {cities, districts, levels, subjects}, currentRoute}) => {
+const filterPanel = ({cb, levels, subjects, towns, currentRoute}) => {
   
   return (
-    <div style ={{display: 'flex'}}>
+    <div style = {{display: 'flex'}}>
       <Filter selectData = { subjects } cb = { cb } currentRoute = {currentRoute}/>
       <Filter selectData = { levels } cb = { cb } currentRoute = {currentRoute}/>
-      <Filter selectData = { cities } cb = { cb } currentRoute = {currentRoute}/>
-      <Filter selectData = { districts } cb = { cb } currentRoute = {currentRoute}/>
+      <Filter selectData = { towns } cb = { cb } currentRoute = {currentRoute}/>
     </div>
   )
 }
