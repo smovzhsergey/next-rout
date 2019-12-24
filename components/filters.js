@@ -5,16 +5,16 @@ import { createCurrentPath } from '../helper';
 
 export const Filters = ({ cb, selectData:[name, options], currentRoute }) => {
   const router = useRouter();
-
-  const createPath = (filterName, currentRoute, router, option = '') => {
-    const asPath = createCurrentPath(currentRoute);
+  
+  const createPlaceholder = (filterName, currentRoute, router, option = '') => {
+    
     let nextPlaceholder = '';
-    // let prevPlaceholder = '';
+    let prevPlaceholder = '';
+    const asPath = createCurrentPath(currentRoute, name, option);
     
     if (currentRoute[filterName] === '') {
-      nextPlaceholder = `${ asPath }/${ option }`;
-      // nextPlaceholder = `${ router.asPath }/${ option }`;
-      // prevPlaceholder = router.asPath;
+      nextPlaceholder = asPath;
+      prevPlaceholder = asPath;
     } else {
       // if (option === '') {
       //   prevPlaceholder = router.asPath.replace(`/${currentRoute[filterName]}`, `${option}`);
@@ -63,30 +63,30 @@ export const Filters = ({ cb, selectData:[name, options], currentRoute }) => {
 
   const { nextLink, prevLink } = createLinkTemplate(name, currentRoute, router);
   // console.log('prevLink', prevLink)
-  // console.log('prevPlaceholder', createPath(name, currentRoute, router).prevPlaceholder)
+  // console.log('prevPlaceholder', createPlaceholder(name, currentRoute, router).prevPlaceholder)
   
   return (
     <div style = {{ padding: '20px', height: '200px', overflow: "scroll" }}>
 
       <h3>Filter { name }</h3>
       
-      <Link href = { prevLink } as = { createPath(name, currentRoute, router).nextPlaceholder }>
-        <p
+      <Link href = { prevLink } as = { createPlaceholder(name, currentRoute, router).nextPlaceholder }>
+        <a
           style = {{color:'red', fontWeight:'bold' }}
           onClick = { () => cb({type: name, value: ''}) }>
             clear { name }
-          </p>
+          </a>
       </Link>
       {
         options.map( ({alias, name: filterName}, index) => {
-          const path = createPath(name, currentRoute, router, alias).nextPlaceholder;
-          // console.log()
+          const path = createPlaceholder(name, currentRoute, router, alias).nextPlaceholder;
+          
           const selectedStyle = currentRoute[name] === alias
             ? { display:'block', backgroundColor: 'blue', color: 'white' }
             : { display:'block' }
           return (
             <Link key = {index} href = { nextLink } as = { path }>
-              <p style = {selectedStyle} onClick = { () => cb({[name]: alias}) }>{ filterName }</p>
+              <a style = {selectedStyle} onClick = { () => cb({[name]: alias}) }>{ filterName }</a>
             </Link>
           )
         })

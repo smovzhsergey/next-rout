@@ -8,11 +8,14 @@ import LinkContainer from './LinkContainer';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { catalogActions} from '../sagas/catalog/actions';
+import { catalogActions } from '../sagas/catalog/actions';
+
 
 import { createFilterList, createCurrentRoute } from '../helper';
 import data from '../profileData.json';
 import cities from '../cities.json';
+
+
 
 const TutorsBoard = (props) => {
 
@@ -40,7 +43,6 @@ const TutorsBoard = (props) => {
 
 
   const handleChangeFilter = (obj) => {
-    console.log('setCurrent filter', obj)
     setNewFilter(obj);
   }
   
@@ -61,8 +63,14 @@ const TutorsBoard = (props) => {
           cb = { handleChangeFilter } //changeRoute
           currentRoute = { currentRoute }
         />}
-        <TutorsList />
-        <LinkContainer />
+        {/* <TutorsList /> */}
+        <LinkContainer
+          currentRoute = { currentRoute }
+          towns = { cities }
+          subjects = { data.lessons }
+          levels = { data.levels }
+          cb = { handleChangeFilter }
+        />
       </div>
       
     </section>
