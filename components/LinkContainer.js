@@ -16,29 +16,40 @@ const LinkContainer = ({currentRoute, towns, subjects, levels}) => {
     return acc;
   }, [])
 
-  const createLinksBlock = (arr, obj) => arr.map(item => obj[item]);
-  const citiesArr = createLinksBlock(popularCities, towns)
-  const subjectsArr = createLinksBlock(popularSubjects, subjects)
-  const levelsArr = createLinksBlock(popularLevels, levels)
-  const filterType = 'subject'
+  // const createLinksBlock = (arr, obj) => arr.map(item => obj[item]);
+  // const citiesArr = createLinksBlock(popularCities, towns)
+  // const subjectsArr = createLinksBlock(popularSubjects, subjects)
+  // const levelsArr = createLinksBlock(popularLevels, levels)
   
   
-  const list = (arr) => {
-    return arr.map((item, index) => {
-      const placeholder = createCurrentPath(currentRoute, filterType, item.alias)
+  // console.log(currentRoute)
+  
+  const createList = (arrayOfPoular, objectOfOptions, filterType) => {
+
+    const options = arrayOfPoular.map(item => objectOfOptions[item]);
+
+    return options.map((item, index) => {
+      const placeholder = createCurrentPath(currentRoute, filterType, item.alias);
+      // console.log(placeholder);
+      
       return (
         <Link key = {index} href = { '/[filter1]/[filter2]' } as = { placeholder }>
-          <a style = {{ display:'block' }} onClick = { () => cb({[name]: alias}) }>{ item.name }</a>
+          <a style = {{ display:'block' }} onClick = { () => cb({[name]: alias}) }>Репетитор { item.name }</a>
         </Link>
       )
-    } )
+    })
   }
+
+  let filterType = 'subject'
+  // let array = subjectsArr
+
+  const list = createList(popularCities, towns, filterType);
   
   return (
     <section>
       <h1 style = {{ textAlign: 'center', fontSize: '3rem' }}>Швидкі посилання</h1>
       <ul>
-        { list(subjectsArr) }
+        { list }
       </ul>
     </section>
   )
