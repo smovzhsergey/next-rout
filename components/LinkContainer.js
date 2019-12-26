@@ -74,7 +74,7 @@ const LinkContainer = ({currentRoute, towns, subjects, levels, cb}) => {
           </div>          
         }
         { 
-          (!selectedFielters.some( i => i ==='levels') && selectedFielters.length === 2 ) &&
+          (!selectedFielters.some( i => i ==='level')) &&
           <div>
             <h3>Популярні рівні</h3>
             {createList(popularLevels, levels, 'levels')}
