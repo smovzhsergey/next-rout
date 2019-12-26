@@ -25,10 +25,10 @@ const LinkContainer = ({currentRoute, towns, subjects, levels, cb}) => {
 
       const placeholder = createPlaceholder(filterType, currentRoute, alias);
       const { nextLink } = createLinkTemplate(filterType, currentRoute, router);
-
+      const innerText = `Репетитор з ${ name }`
       return (
         <Link key = {`${name}_${alias}`} href = { nextLink } as = { placeholder }>
-          <a style = {{ display:'block' }} onClick = { () => cb({[filterType]: name}) }>Репетитор з { name }</a>
+          <a style = {{ display:'block' }} onClick = { () => cb({[filterType]: name}) }>{ innerText }</a>
         </Link>
       )
     });
@@ -77,7 +77,7 @@ const LinkContainer = ({currentRoute, towns, subjects, levels, cb}) => {
           (!selectedFielters.some( i => i ==='level')) &&
           <div>
             <h3>Популярні рівні</h3>
-            {createList(popularLevels, levels, 'levels')}
+            { createList(popularLevels, levels, 'levels') }
           </div>
         }
       </div>
