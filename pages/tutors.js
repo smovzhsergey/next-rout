@@ -4,6 +4,7 @@ import TutorsBoard from '../components/tutorsBoard'
 
 
 const Tutors = (props) => {
+  console.log('tutors props', props)
   return(
 
     <Layout>
@@ -15,4 +16,16 @@ const Tutors = (props) => {
 
   )
 }
+
+Tutors.getInitialProps = async (ctx) => {
+
+  console.log(ctx)
+  const query = await new Promise((resolve) => {
+    setTimeout(() => {resolve(ctx)}, 200)
+  }); 
+
+
+  return {name: 'name', val: query, lastName: 'lastName' }
+}
+
 export default Tutors;
